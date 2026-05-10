@@ -22,7 +22,7 @@ def get_access_token():
         "grant_type":    "refresh_token",
         "client_id":     CLIENT_ID,
         "refresh_token": REFRESH_TOKEN,
-        "scope":         "https://analysis.windows.net/powerbi/api/.default offline_access",
+        "scope":         "https://analysis.windows.net/powerbi/api/.default",
     })
     resp.raise_for_status()
     return resp.json()["access_token"]
