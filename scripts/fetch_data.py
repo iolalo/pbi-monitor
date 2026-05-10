@@ -24,6 +24,8 @@ def get_access_token():
         "refresh_token": REFRESH_TOKEN,
         "scope":         "https://analysis.windows.net/powerbi/api/.default",
     })
+    if not resp.ok:
+        print(f"Auth error {resp.status_code}: {resp.text}")
     resp.raise_for_status()
     return resp.json()["access_token"]
 
