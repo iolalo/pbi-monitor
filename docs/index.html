@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PBI Monitor</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --bg:       #0f1117;
+      --surface:  #1a1d27;
+      --card:     #21253a;
+      --border:   #2e3350;
+      --accent:   #4f8ef7;
+      --green:    #34c784;
+      --red:      #f76f6f;
+      --yellow:   #f7c948;
+      --muted:    #8b93b0;
+      --text:     #e2e6f3;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      font-size: 14px;
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    header h1 { font-size: 18px; font-weight: 600; color: var(--accent); }
+    #last-update { font-size: 12px; color: var(--muted); }
+
+    /* ── Nav tabs ── */
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 28px;
+      display: flex;
+      gap: 4px;
+    }
+    nav button {
+      background: none;
+      border: none;
+      color: var(--muted);
+      padding: 12px 18px;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      transition: color .2s, border-color .2s;
+    }
+    nav button.active, nav button:hover {
+      color: var(--text);
+      border-bottom-color: var(--accent);
+    }
+
+    /* ── Main ── */
+    main { padding: 24px 28px; max-width: 1400px; }
+
+    .tab { display: none; }
+    .tab.active { display: block; }
+
+    /* ── Summary cards ── */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 14px;
+      margin-bottom: 28px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 18px 20px;
+    }
+    .card .label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .6px; }
+    .card .value { font-size: 32px; font-weight: 700; margin-top: 6px; line-height: 1; }
+    .card .value.green  { color: var(--green); }
+    .card .value.red    { color: var(--red); }
+    .card .value.yellow { color: var(--yellow); }
+    .card .value.blue   { color: var(--accent); }
+
+    /* ── Tables ── */
+    .table-wrap {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 24px;
+    }
+    .table-wrap h2 {
+      padding: 16px 20px 12px;
+      font-size: 14px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th {
+      background: var(--surface);
+      color: var(--muted);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      padding: 10px 16px;
+      text-align: left;
+      font-weight: 500;
+    }
+    td {
+      padding: 10px 16px;
+      border-top: 1px solid var(--border);
+      vertical-align: middle;
+    }
+    tr:hover td { background: rgba(79,142,247,.04); }
+
+    /* ── Badges ── */
+    .badge {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 20px;
+      font-size: 11px;
+      font-weight: 600;
+    }
+    .badge-green  { background: rgba(52,199,132,.15); color: var(--green); }
+    .badge-red    { background: rgba(247,111,111,.15); color: var(--red); }
+    .badge-yellow { background: rgba(247,201,72,.15);  color: var(--yellow); }
+    .badge-blue   { background: rgba(79,142,247,.15);  color: var(--accent); }
+    .badge-muted  { background: rgba(139,147,176,.12); color: var(--muted); }
+
+    /* ── Bar ── */
+    .bar-wrap { display: flex; align-items: center; gap: 10px; min-width: 160px; }
+    .bar-bg {
+      flex: 1;
+      height: 6px;
+      background: var(--border);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    .bar-fill {
+      height: 100%;
+      background: var(--accent);
+      border-radius: 3px;
+      min-width: 2px;
+    }
+    .bar-label { font-size: 12px; color: var(--muted); min-width: 28px; text-align: right; }
+
+    /* ── Chart containers ── */
+    .charts-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .chart-box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px;
+    }
+    .chart-box h2 { font-size: 14px; font-weight: 600; margin-bottom: 16px; }
+    .chart-box canvas { max-height: 260px; }
+
+    /* ── Search ── */
+    .search-bar {
+      width: 100%;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 9px 14px;
+      color: var(--text);
+      font-size: 13px;
+      margin-bottom: 16px;
+      outline: none;
+    }
+    .search-bar:focus { border-color: var(--accent); }
+
+    /* ── Workspace toggle ── */
+    .ws-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      user-select: none;
+    }
+    .ws-header .arrow { color: var(--muted); transition: transform .2s; font-size: 11px; }
+    .ws-header.open .arrow { transform: rotate(90deg); }
+    .ws-detail { display: none; padding: 0 16px 16px; }
+    .ws-detail.open { display: block; }
+
+    @media (max-width: 700px) {
+      .charts-row { grid-template-columns: 1fr; }
+      main { padding: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>⚡ PBI Monitor</h1>
+  <span id="last-update">Cargando...</span>
+</header>
+
+<nav>
+  <button class="active" onclick="showTab('overview', this)">Resumen</button>
+  <button onclick="showTab('workspaces', this)">Áreas de trabajo</button>
+  <button onclick="showTab('reports', this)">Reportes</button>
+  <button onclick="showTab('users', this)">Usuarios</button>
+</nav>
+
+<main>
+
+  <!-- ══ TAB: OVERVIEW ══ -->
+  <div id="tab-overview" class="tab active">
+    <div class="cards" id="summary-cards"></div>
+    <div class="charts-row">
+      <div class="chart-box">
+        <h2>Reportes por área de trabajo</h2>
+        <canvas id="chart-ws-reports"></canvas>
+      </div>
+      <div class="chart-box">
+        <h2>Usuarios por área de trabajo</h2>
+        <canvas id="chart-ws-users"></canvas>
+      </div>
+    </div>
+    <div class="charts-row">
+      <div class="chart-box">
+        <h2>Top 10 — reportes más vistos (30d)</h2>
+        <canvas id="chart-top-reports"></canvas>
+      </div>
+      <div class="chart-box">
+        <h2>Actividad de usuarios (activos vs inactivos)</h2>
+        <canvas id="chart-users-activity"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ TAB: WORKSPACES ══ -->
+  <div id="tab-workspaces" class="tab">
+    <input class="search-bar" id="ws-search" placeholder="🔍 Buscar área de trabajo..." oninput="filterWorkspaces()" />
+    <div id="ws-list"></div>
+  </div>
+
+  <!-- ══ TAB: REPORTS ══ -->
+  <div id="tab-reports" class="tab">
+    <input class="search-bar" id="rep-search" placeholder="🔍 Buscar reporte..." oninput="filterReports()" />
+    <div class="table-wrap">
+      <h2>Todos los reportes</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Reporte</th>
+            <th>Área de trabajo</th>
+            <th>Vistas (30d)</th>
+            <th>Usuarios únicos</th>
+            <th>Estado</th>
+          </tr>
+        </thead>
+        <tbody id="reports-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ══ TAB: USERS ══ -->
+  <div id="tab-users" class="tab">
+    <input class="search-bar" id="usr-search" placeholder="🔍 Buscar usuario..." oninput="filterUsers()" />
+    <div class="table-wrap">
+      <h2>Todos los usuarios</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Email</th>
+            <th>Workspaces</th>
+            <th>Último acceso</th>
+            <th>Estado</th>
+          </tr>
+        </thead>
+        <tbody id="users-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+</main>
+
+<script>
+// ── State ─────────────────────────────────────────────────────────────────────
+let DATA = null;
+let CHARTS = {};
+let ALL_REPORTS = [];
+let ALL_USERS = {};
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+const $ = id => document.getElementById(id);
+const fmt = n => n?.toLocaleString('es-AR') ?? '—';
+const COLORS = ['#4f8ef7','#34c784','#f7c948','#f76f6f','#a78bfa','#fb923c','#38bdf8','#f472b6','#86efac','#fde68a'];
+
+function showTab(name, btn) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+  $('tab-' + name).classList.add('active');
+  btn.classList.add('active');
+}
+
+function formatDate(iso) {
+  if (!iso) return '—';
+  const d = new Date(iso);
+  return d.toLocaleDateString('es-AR', { day:'2-digit', month:'2-digit', year:'numeric' });
+}
+
+function daysSince(iso) {
+  if (!iso) return null;
+  return Math.floor((Date.now() - new Date(iso)) / 86400000);
+}
+
+function destroyChart(id) {
+  if (CHARTS[id]) { CHARTS[id].destroy(); delete CHARTS[id]; }
+}
+
+// ── Summary cards ─────────────────────────────────────────────────────────────
+function renderCards(s) {
+  $('summary-cards').innerHTML = [
+    { label: 'Áreas de trabajo', value: s.total_workspaces,  cls: 'blue'   },
+    { label: 'Reportes totales',  value: s.total_reports,     cls: 'blue'   },
+    { label: 'Usuarios únicos',   value: s.total_users,       cls: 'blue'   },
+    { label: 'Usuarios activos',  value: s.active_users,      cls: 'green'  },
+    { label: 'Usuarios inactivos (30d)', value: s.inactive_users, cls: 'red' },
+    { label: 'Reportes sin uso (30d)',   value: s.unused_reports, cls: 'yellow' },
+  ].map(c => `
+    <div class="card">
+      <div class="label">${c.label}</div>
+      <div class="value ${c.cls}">${fmt(c.value)}</div>
+    </div>`).join('');
+}
+
+// ── Charts ────────────────────────────────────────────────────────────────────
+function makeBar(id, labels, values, label) {
+  destroyChart(id);
+  CHARTS[id] = new Chart($(id), {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [{ label, data: values, backgroundColor: COLORS.slice(0, values.length), borderRadius: 5 }],
+    },
+    options: {
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { ticks: { color: '#8b93b0', font: { size: 11 } }, grid: { color: '#2e3350' } },
+        y: { ticks: { color: '#8b93b0', font: { size: 11 } }, grid: { color: '#2e3350' } },
+      },
+    },
+  });
+}
+
+function makeDoughnut(id, labels, values) {
+  destroyChart(id);
+  CHARTS[id] = new Chart($(id), {
+    type: 'doughnut',
+    data: {
+      labels,
+      datasets: [{ data: values, backgroundColor: COLORS.slice(0, values.length), borderWidth: 0 }],
+    },
+    options: {
+      plugins: { legend: { position: 'right', labels: { color: '#e2e6f3', font: { size: 12 }, boxWidth: 12 } } },
+      cutout: '60%',
+    },
+  });
+}
+
+function renderCharts(data) {
+  const wss = data.workspaces.slice(0, 12);
+
+  makeBar('chart-ws-reports',
+    wss.map(w => w.name.length > 18 ? w.name.slice(0, 18) + '…' : w.name),
+    wss.map(w => w.report_count),
+    'Reportes'
+  );
+
+  makeBar('chart-ws-users',
+    wss.map(w => w.name.length > 18 ? w.name.slice(0, 18) + '…' : w.name),
+    wss.map(w => w.user_count),
+    'Usuarios'
+  );
+
+  // Top reports — need report names
+  const repMap = {};
+  data.workspaces.forEach(ws => ws.reports.forEach(r => { repMap[r.id] = r.name; }));
+  const top = (data.summary.top_reports || []).slice(0, 10);
+  makeBar('chart-top-reports',
+    top.map(r => (repMap[r.id] || r.id).slice(0, 22)),
+    top.map(r => r.views),
+    'Vistas'
+  );
+
+  makeDoughnut('chart-users-activity',
+    ['Activos', 'Inactivos'],
+    [data.summary.active_users, data.summary.inactive_users]
+  );
+}
+
+// ── Workspaces tab ────────────────────────────────────────────────────────────
+function renderWorkspaces(workspaces) {
+  const container = $('ws-list');
+  container.innerHTML = workspaces.map((ws, i) => `
+    <div class="table-wrap" style="margin-bottom:14px;" data-ws-name="${ws.name.toLowerCase()}">
+      <div class="table-wrap" style="border:none;">
+        <div style="padding:14px 20px; display:flex; align-items:center; justify-content:space-between;">
+          <div class="ws-header" id="wsh-${i}" onclick="toggleWs(${i})">
+            <span class="arrow">▶</span>
+            <strong>${ws.name}</strong>
+            <span class="badge badge-muted" style="margin-left:6px;">${ws.type}</span>
+          </div>
+          <div style="display:flex;gap:12px;font-size:12px;color:var(--muted);">
+            <span>📋 ${ws.report_count} reportes</span>
+            <span>🗄 ${ws.dataset_count} datasets</span>
+            <span>👥 ${ws.user_count} usuarios</span>
+          </div>
+        </div>
+        <div class="ws-detail" id="wsd-${i}">
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+            <div>
+              <div style="font-size:12px;color:var(--muted);margin-bottom:8px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;">Reportes</div>
+              ${ws.reports.length === 0 ? '<div style="color:var(--muted);font-size:12px;">Sin reportes</div>' :
+                ws.reports.map(r => `
+                  <div style="display:flex;align-items:center;justify-content:space-between;padding:6px 0;border-bottom:1px solid var(--border);">
+                    <span style="font-size:13px;">${r.name}</span>
+                    <div class="bar-wrap">
+                      <div class="bar-bg"><div class="bar-fill" style="width:${Math.min(100, r.views_30d * 3)}%"></div></div>
+                      <span class="bar-label">${r.views_30d}</span>
+                    </div>
+                  </div>`).join('')}
+            </div>
+            <div>
+              <div style="font-size:12px;color:var(--muted);margin-bottom:8px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;">Usuarios</div>
+              ${ws.users.length === 0 ? '<div style="color:var(--muted);font-size:12px;">Sin usuarios</div>' :
+                ws.users.map(u => `
+                  <div style="display:flex;align-items:center;justify-content:space-between;padding:6px 0;border-bottom:1px solid var(--border);">
+                    <div>
+                      <div style="font-size:13px;">${u.emailAddress || '—'}</div>
+                      <div style="font-size:11px;color:var(--muted);">${u.groupUserAccessRight || u.principalType || ''}</div>
+                    </div>
+                    <span class="badge ${u.is_active ? 'badge-green' : 'badge-red'}">${u.is_active ? 'Activo' : 'Inactivo'}</span>
+                  </div>`).join('')}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>`).join('');
+}
+
+function toggleWs(i) {
+  const h = $('wsh-' + i), d = $('wsd-' + i);
+  h.classList.toggle('open');
+  d.classList.toggle('open');
+}
+
+function filterWorkspaces() {
+  const q = $('ws-search').value.toLowerCase();
+  document.querySelectorAll('[data-ws-name]').forEach(el => {
+    el.style.display = el.dataset.wsName.includes(q) ? '' : 'none';
+  });
+}
+
+// ── Reports tab ───────────────────────────────────────────────────────────────
+function buildAllReports(workspaces) {
+  ALL_REPORTS = [];
+  workspaces.forEach(ws => {
+    ws.reports.forEach(r => {
+      ALL_REPORTS.push({ ...r, workspace: ws.name });
+    });
+  });
+  ALL_REPORTS.sort((a, b) => b.views_30d - a.views_30d);
+}
+
+function renderReports(list) {
+  const max = Math.max(1, ...list.map(r => r.views_30d));
+  $('reports-tbody').innerHTML = list.map(r => `
+    <tr data-rep-name="${(r.name + r.workspace).toLowerCase()}">
+      <td>${r.name}</td>
+      <td><span class="badge badge-muted">${r.workspace}</span></td>
+      <td>
+        <div class="bar-wrap">
+          <div class="bar-bg"><div class="bar-fill" style="width:${Math.round(r.views_30d / max * 100)}%"></div></div>
+          <span class="bar-label">${r.views_30d}</span>
+        </div>
+      </td>
+      <td>${r.unique_users_30d ?? '—'}</td>
+      <td>${r.views_30d === 0
+        ? '<span class="badge badge-yellow">Sin uso</span>'
+        : '<span class="badge badge-green">Activo</span>'}</td>
+    </tr>`).join('');
+}
+
+function filterReports() {
+  const q = $('rep-search').value.toLowerCase();
+  document.querySelectorAll('#reports-tbody tr').forEach(tr => {
+    tr.style.display = tr.dataset.repName.includes(q) ? '' : 'none';
+  });
+}
+
+// ── Users tab ─────────────────────────────────────────────────────────────────
+function buildAllUsers(data) {
+  ALL_USERS = {};
+  data.workspaces.forEach(ws => {
+    ws.users.forEach(u => {
+      const email = (u.emailAddress || '').toLowerCase();
+      if (!ALL_USERS[email]) {
+        ALL_USERS[email] = { ...u, email, workspaces: [] };
+      }
+      ALL_USERS[email].workspaces.push(ws.name);
+    });
+  });
+}
+
+function renderUsers(list) {
+  $('users-tbody').innerHTML = list.map(u => {
+    const ds = daysSince(u.last_activity);
+    return `
+    <tr data-usr-email="${u.email}">
+      <td>${u.email || u.displayName || '—'}</td>
+      <td style="max-width:300px;">
+        ${u.workspaces.map(w => `<span class="badge badge-muted" style="margin:1px 2px;">${w}</span>`).join('')}
+      </td>
+      <td>${u.last_activity ? `${formatDate(u.last_activity)} <span style="color:var(--muted);font-size:11px;">(${ds}d atrás)</span>` : '—'}</td>
+      <td>
+        ${u.is_active
+          ? '<span class="badge badge-green">Activo</span>'
+          : '<span class="badge badge-red">Inactivo</span>'}
+      </td>
+    </tr>`;
+  }).join('');
+}
+
+function filterUsers() {
+  const q = $('usr-search').value.toLowerCase();
+  document.querySelectorAll('#users-tbody tr').forEach(tr => {
+    tr.style.display = tr.dataset.usrEmail.includes(q) ? '' : 'none';
+  });
+}
+
+// ── Bootstrap ─────────────────────────────────────────────────────────────────
+async function load() {
+  try {
+    const resp = await fetch('data/data.json?v=' + Date.now());
+    if (!resp.ok) throw new Error('data.json no encontrado');
+    DATA = await resp.json();
+
+    $('last-update').textContent = 'Actualizado: ' + formatDate(DATA.generated_at);
+
+    renderCards(DATA.summary);
+    renderCharts(DATA);
+
+    renderWorkspaces(DATA.workspaces);
+    buildAllReports(DATA.workspaces);
+    renderReports(ALL_REPORTS);
+
+    buildAllUsers(DATA);
+    renderUsers(Object.values(ALL_USERS).sort((a, b) =>
+      (b.last_activity || '').localeCompare(a.last_activity || '')));
+
+  } catch (e) {
+    document.querySelector('main').innerHTML = `
+      <div style="padding:60px;text-align:center;color:var(--muted);">
+        <div style="font-size:48px;margin-bottom:16px;">📊</div>
+        <div style="font-size:18px;margin-bottom:8px;">Sin datos todavía</div>
+        <div style="font-size:13px;">Ejecutá el workflow de GitHub Actions para generar data.json</div>
+      </div>`;
+  }
+}
+
+load();
+</script>
+</body>
+</html>
