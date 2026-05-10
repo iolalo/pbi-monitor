@@ -49,14 +49,17 @@ def fetch_workspaces(token):
 
 def fetch_activity(token, days=30):
     events = []
+    headers = {"Authorization": f"Bearer {token}"}
     for i in range(days):
         day = (datetime.now(timezone.utc) - timedelta(days=i + 1)).strftime("%Y-%m-%d")
         try:
-            data = pbi(token, "/admin/activityevents", {
-                "startDateTime": f"'{day}T00:00:00.000Z'",
-                "endDateTime":   f"'{day}T23:59:59.999Z'",
-            })
-            events.extend(data.get("activityEventEntities", []))
+            url = f"{BASE}/admin/activityevents?startDateTime='{day}T00:00:00.000Z'&endDateTime='{day}T23:59:59.999Z'"
+            resp = requests.get(url, headers=headers)
+            resp.raise_for_status()
+            data = resp.json()
+            batch = data.get("activityEventEntities", [])
+            events.extend(batch)
+            print(f"  {day}: {len(batch)} eventos")
         except Exception as e:
             print(f"  Warning — activity {day}: {e}")
         time.sleep(0.3)
