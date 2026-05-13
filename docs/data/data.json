@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-12T13:05:25.461511+00:00",
+  "generated_at": "2026-05-13T13:13:04.030730+00:00",
   "summary": {
     "total_workspaces": 86,
     "total_reports": 113,
     "total_users": 55,
-    "active_users": 15,
-    "inactive_users": 40,
+    "active_users": 14,
+    "inactive_users": 41,
     "unused_reports": 113,
     "top_reports": [
       {
         "id": "cc2bc666-190c-4764-b4c1-0136e9e74b92",
-        "views": 10
-      },
-      {
-        "id": "d8624702-a983-4706-bab1-0e39fe2a2d8c",
         "views": 9
       },
       {
-        "id": "72cc50f4-70f2-4c6e-8132-6f9198272544",
+        "id": "d8624702-a983-4706-bab1-0e39fe2a2d8c",
+        "views": 8
+      },
+      {
+        "id": "38ff8b65-4dd1-4fd7-99f5-e9949e8ab10d",
         "views": 5
       },
       {
-        "id": "43d5333d-aaad-4fb4-8450-51c0574b6b2a",
+        "id": "72cc50f4-70f2-4c6e-8132-6f9198272544",
         "views": 5
       },
       {
@@ -33,11 +33,11 @@
         "views": 4
       },
       {
-        "id": "59fb6147-7900-4041-b0ca-d3b28fc8b162",
+        "id": "43d5333d-aaad-4fb4-8450-51c0574b6b2a",
         "views": 4
       },
       {
-        "id": "38ff8b65-4dd1-4fd7-99f5-e9949e8ab10d",
+        "id": "59fb6147-7900-4041-b0ca-d3b28fc8b162",
         "views": 4
       },
       {
@@ -231,7 +231,7 @@
           "name": "Reporte comercial Bai Dist",
           "datasetId": "99b180b4-aca3-4da6-8265-3e4f0a879b5c",
           "createdDateTime": "2025-05-16T13:05:40.8Z",
-          "modifiedDateTime": "2026-04-30T14:01:17.35Z",
+          "modifiedDateTime": "2026-05-12T18:26:31.237Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -418,7 +418,7 @@
           "displayName": "Agustin Fopiano",
           "identifier": "vendedoresbat@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-30T00:10:14",
+          "last_activity": "2026-05-12T00:32:45",
           "is_active": true
         },
         {
@@ -1128,7 +1128,7 @@
           "name": "Power BI - Cuentas Especiales",
           "datasetId": "e9b37449-da80-4f0f-b7c3-4c2b3c0afc13",
           "createdDateTime": "2026-03-30T15:21:54.153Z",
-          "modifiedDateTime": "2026-03-30T15:21:54.153Z",
+          "modifiedDateTime": "2026-05-12T13:53:46.977Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -2207,7 +2207,7 @@
           "name": "Limpieza - Interior",
           "datasetId": "2e610793-033e-43f1-965c-3178d0848529",
           "createdDateTime": "2025-02-12T17:13:49.823Z",
-          "modifiedDateTime": "2026-05-04T16:30:07.14Z",
+          "modifiedDateTime": "2026-05-12T13:27:26.44Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -3685,8 +3685,8 @@
           "displayName": "Marilina Gette",
           "identifier": "mgette@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-15T00:27:44",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "mcacciatore@baidist.com.ar",
@@ -4207,8 +4207,8 @@
           "displayName": "Marilina Gette",
           "identifier": "mgette@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-15T00:27:44",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "robin@baidist.com.ar",
@@ -4247,8 +4247,8 @@
           "displayName": "Marilina Gette",
           "identifier": "mgette@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-15T00:27:44",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         }
       ]
     },
@@ -6290,7 +6290,7 @@
           "displayName": "Agustin Fopiano",
           "identifier": "vendedoresbat@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-30T00:10:14",
+          "last_activity": "2026-05-12T00:32:45",
           "is_active": true
         }
       ]
@@ -6636,7 +6636,7 @@
       "displayName": "Agustin Fopiano",
       "identifier": "vendedoresbat@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-04-30T00:10:14",
+      "last_activity": "2026-05-12T00:32:45",
       "is_active": true
     },
     {
@@ -6951,8 +6951,8 @@
       "displayName": "Marilina Gette",
       "identifier": "mgette@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-04-15T00:27:44",
-      "is_active": true
+      "last_activity": "",
+      "is_active": false
     },
     {
       "emailAddress": "grupodelpilar@baidist.com.ar",
