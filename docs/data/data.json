@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T13:13:04.030730+00:00",
+  "generated_at": "2026-05-14T12:26:33.593976+00:00",
   "summary": {
     "total_workspaces": 86,
     "total_reports": 113,
@@ -10,14 +10,18 @@
     "top_reports": [
       {
         "id": "cc2bc666-190c-4764-b4c1-0136e9e74b92",
-        "views": 9
-      },
-      {
-        "id": "d8624702-a983-4706-bab1-0e39fe2a2d8c",
-        "views": 8
+        "views": 10
       },
       {
         "id": "38ff8b65-4dd1-4fd7-99f5-e9949e8ab10d",
+        "views": 6
+      },
+      {
+        "id": "d8624702-a983-4706-bab1-0e39fe2a2d8c",
+        "views": 6
+      },
+      {
+        "id": "fd7868bb-5246-4e6d-bf18-d185190d7a4a",
         "views": 5
       },
       {
@@ -26,10 +30,6 @@
       },
       {
         "id": "265f8898-8ebd-41fe-8413-361bfa94bb0f",
-        "views": 4
-      },
-      {
-        "id": "fd7868bb-5246-4e6d-bf18-d185190d7a4a",
         "views": 4
       },
       {
@@ -231,7 +231,7 @@
           "name": "Reporte comercial Bai Dist",
           "datasetId": "99b180b4-aca3-4da6-8265-3e4f0a879b5c",
           "createdDateTime": "2025-05-16T13:05:40.8Z",
-          "modifiedDateTime": "2026-05-12T18:26:31.237Z",
+          "modifiedDateTime": "2026-05-13T20:05:42.303Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -382,8 +382,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "glismore@baidist.com.ar",
@@ -391,8 +391,8 @@
           "displayName": "Guillermo Lismore",
           "identifier": "glismore@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "",
-          "is_active": false
+          "last_activity": "2026-05-13T00:52:09",
+          "is_active": true
         },
         {
           "emailAddress": "aivancich@baidist.com.ar",
@@ -400,7 +400,7 @@
           "displayName": "Angel Ivancich",
           "identifier": "aivancich@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-11T00:46:52",
+          "last_activity": "2026-05-13T00:58:03",
           "is_active": true
         },
         {
@@ -418,7 +418,7 @@
           "displayName": "Agustin Fopiano",
           "identifier": "vendedoresbat@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-12T00:32:45",
+          "last_activity": "2026-05-13T00:50:59",
           "is_active": true
         },
         {
@@ -797,8 +797,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "robin@baidist.com.ar",
@@ -815,8 +815,8 @@
           "displayName": "Guillermo Lismore",
           "identifier": "glismore@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "",
-          "is_active": false
+          "last_activity": "2026-05-13T00:52:09",
+          "is_active": true
         },
         {
           "emailAddress": "sfrers@baidist.com.ar",
@@ -869,7 +869,7 @@
           "displayName": "tesoreria",
           "identifier": "suptesoreria@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-28T00:00:37",
+          "last_activity": "2026-05-13T00:21:17",
           "is_active": true
         },
         {
@@ -1192,8 +1192,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         }
       ]
     },
@@ -1344,8 +1344,8 @@
           "displayName": "Guillermo Lismore",
           "identifier": "glismore@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "",
-          "is_active": false
+          "last_activity": "2026-05-13T00:52:09",
+          "is_active": true
         }
       ]
     },
@@ -1476,7 +1476,7 @@
           "displayName": "Angel Ivancich",
           "identifier": "aivancich@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-11T00:46:52",
+          "last_activity": "2026-05-13T00:58:03",
           "is_active": true
         }
       ]
@@ -1795,8 +1795,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "aivancich@baidist.com.ar",
@@ -1804,7 +1804,7 @@
           "displayName": "Angel Ivancich",
           "identifier": "aivancich@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-11T00:46:52",
+          "last_activity": "2026-05-13T00:58:03",
           "is_active": true
         },
         {
@@ -1879,8 +1879,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         }
       ]
     },
@@ -2041,7 +2041,7 @@
           "name": "Avance de ventas - Conurbano",
           "datasetId": "1203e875-4959-4083-8d9c-cf3a17440255",
           "createdDateTime": "2025-02-11T19:58:00.16Z",
-          "modifiedDateTime": "2026-05-04T17:38:01.52Z",
+          "modifiedDateTime": "2026-05-13T15:24:49.463Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -2146,8 +2146,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "robin@baidist.com.ar",
@@ -2299,8 +2299,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "robin@baidist.com.ar",
@@ -2573,8 +2573,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "logisticacentralizada@baidist.com.ar",
@@ -2687,8 +2687,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "sdereportes@baidist.com.ar",
@@ -2793,8 +2793,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "aivancich@baidist.com.ar",
@@ -2802,7 +2802,7 @@
           "displayName": "Angel Ivancich",
           "identifier": "aivancich@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-11T00:46:52",
+          "last_activity": "2026-05-13T00:58:03",
           "is_active": true
         },
         {
@@ -2811,8 +2811,8 @@
           "displayName": "Guillermo Lismore",
           "identifier": "glismore@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "",
-          "is_active": false
+          "last_activity": "2026-05-13T00:52:09",
+          "is_active": true
         }
       ]
     },
@@ -2965,8 +2965,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "contabilidad@baidist.com.ar",
@@ -3115,8 +3115,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "fpauletich@baidist.com.ar",
@@ -3260,8 +3260,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "powerbi@baidist.com.ar",
@@ -3515,7 +3515,7 @@
           "displayName": "Angel Ivancich",
           "identifier": "aivancich@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-11T00:46:52",
+          "last_activity": "2026-05-13T00:58:03",
           "is_active": true
         }
       ]
@@ -3530,19 +3530,6 @@
       "user_count": 23,
       "reports": [
         {
-          "id": "D8624702-A983-4706-BAB1-0E39FE2A2D8C",
-          "reportType": "PowerBIReport",
-          "format": "PBIRLegacy",
-          "name": "Stock & Giros V1",
-          "datasetId": "cb98952f-122c-4703-a95c-4d22fd71efcc",
-          "createdDateTime": "2025-08-15T13:50:24.883Z",
-          "modifiedDateTime": "2026-05-08T01:25:20.767Z",
-          "users": [],
-          "subscriptions": [],
-          "views_30d": 0,
-          "unique_users_30d": 0
-        },
-        {
           "id": "A7AE55C7-4CA1-4CE9-AF7F-4FE3047BFB54",
           "reportType": "PowerBIReport",
           "format": "PBIRLegacy",
@@ -3554,24 +3541,22 @@
           "subscriptions": [],
           "views_30d": 0,
           "unique_users_30d": 0
+        },
+        {
+          "id": "46CFAA74-6BE0-4151-9810-42631E010D4B",
+          "reportType": "PowerBIReport",
+          "format": "PBIRLegacy",
+          "name": "Stock & Giros V1",
+          "datasetId": "3f635d2e-d12f-4114-8798-be919d2dc329",
+          "createdDateTime": "2026-05-13T20:10:59.69Z",
+          "modifiedDateTime": "2026-05-14T11:23:31.7Z",
+          "users": [],
+          "subscriptions": [],
+          "views_30d": 0,
+          "unique_users_30d": 0
         }
       ],
       "datasets": [
-        {
-          "id": "cb98952f-122c-4703-a95c-4d22fd71efcc",
-          "name": "Stock & Giros V1",
-          "addRowsAPIEnabled": false,
-          "configuredBy": "aperez@baidist.com.ar",
-          "isRefreshable": true,
-          "isEffectiveIdentityRequired": false,
-          "isEffectiveIdentityRolesRequired": false,
-          "targetStorageMode": "PremiumFiles",
-          "createdDate": "2025-08-15T13:50:23.367Z",
-          "contentProviderType": "PbixInImportMode",
-          "upstreamDatasets": [],
-          "users": [],
-          "isInPlaceSharingEnabled": false
-        },
         {
           "id": "90b4bc11-f8db-4dbb-aa2e-43eab5f96646",
           "name": "Usage Metrics Report",
@@ -3582,6 +3567,21 @@
           "isEffectiveIdentityRolesRequired": false,
           "targetStorageMode": "Abf",
           "createdDate": "2025-12-12T13:27:51.023Z",
+          "contentProviderType": "PbixInImportMode",
+          "upstreamDatasets": [],
+          "users": [],
+          "isInPlaceSharingEnabled": false
+        },
+        {
+          "id": "3f635d2e-d12f-4114-8798-be919d2dc329",
+          "name": "Stock & Giros V1(Backup de backup)",
+          "addRowsAPIEnabled": false,
+          "configuredBy": "aperez@baidist.com.ar",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "isEffectiveIdentityRolesRequired": false,
+          "targetStorageMode": "Abf",
+          "createdDate": "2026-05-13T20:10:57.897Z",
           "contentProviderType": "PbixInImportMode",
           "upstreamDatasets": [],
           "users": [],
@@ -3613,8 +3613,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "aivancich@baidist.com.ar",
@@ -3622,7 +3622,7 @@
           "displayName": "Angel Ivancich",
           "identifier": "aivancich@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-11T00:46:52",
+          "last_activity": "2026-05-13T00:58:03",
           "is_active": true
         },
         {
@@ -3667,8 +3667,8 @@
           "displayName": "Guillermo Lismore",
           "identifier": "glismore@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "",
-          "is_active": false
+          "last_activity": "2026-05-13T00:52:09",
+          "is_active": true
         },
         {
           "emailAddress": "grubiano@baidist.com.ar",
@@ -3900,8 +3900,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         }
       ]
     },
@@ -3943,7 +3943,7 @@
           "name": "Disponibilidad & Stock Inmovilizado",
           "datasetId": "6792f9e7-aee0-4b13-98e3-ee42ee4b2be5",
           "createdDateTime": "2026-04-20T13:38:12.993Z",
-          "modifiedDateTime": "2026-05-06T20:13:32.8Z",
+          "modifiedDateTime": "2026-05-14T11:37:43.103Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -3992,8 +3992,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "abastecimiento@baidist.com.ar",
@@ -4198,8 +4198,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "mgette@baidist.com.ar",
@@ -4336,8 +4336,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "aivancich@baidist.com.ar",
@@ -4345,7 +4345,7 @@
           "displayName": "Angel Ivancich",
           "identifier": "aivancich@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-11T00:46:52",
+          "last_activity": "2026-05-13T00:58:03",
           "is_active": true
         },
         {
@@ -4703,8 +4703,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         }
       ]
     },
@@ -4857,8 +4857,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "mhuidobro@baidist.com.ar",
@@ -5071,8 +5071,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "povolo@baidist.com.ar",
@@ -5098,7 +5098,7 @@
           "displayName": "Angel Ivancich",
           "identifier": "aivancich@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-11T00:46:52",
+          "last_activity": "2026-05-13T00:58:03",
           "is_active": true
         },
         {
@@ -5218,8 +5218,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "staffejecutivo@baidist.com.ar",
@@ -5288,8 +5288,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "bailogistica@baidist.com.ar",
@@ -5545,8 +5545,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "administracion@baidist.com.ar",
@@ -5581,7 +5581,7 @@
           "displayName": "tesoreria",
           "identifier": "suptesoreria@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-28T00:00:37",
+          "last_activity": "2026-05-13T00:21:17",
           "is_active": true
         },
         {
@@ -5611,7 +5611,7 @@
           "name": "Seguimiento de Ventas - Call Center",
           "datasetId": "d8b854c6-ba13-49c3-9651-408188715a5a",
           "createdDateTime": "2026-01-15T11:48:06.087Z",
-          "modifiedDateTime": "2026-04-30T14:42:54.16Z",
+          "modifiedDateTime": "2026-05-13T19:02:20.44Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -5642,8 +5642,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "callcenter@baidist.com.ar",
@@ -5700,7 +5700,7 @@
           "displayName": "tesoreria",
           "identifier": "suptesoreria@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-28T00:00:37",
+          "last_activity": "2026-05-13T00:21:17",
           "is_active": true
         }
       ]
@@ -5846,8 +5846,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "comercial@baidist.com.ar",
@@ -5911,7 +5911,7 @@
           "name": "Stock & Giros V3 (Optimizado por Agus)",
           "datasetId": "d94a11c4-ef1d-41c4-9514-0c0ce5c4645d",
           "createdDateTime": "2026-04-27T18:00:20.407Z",
-          "modifiedDateTime": "2026-04-27T18:00:20.407Z",
+          "modifiedDateTime": "2026-05-14T12:17:39.543Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -5972,8 +5972,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         }
       ]
     },
@@ -6080,8 +6080,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "transversalgp@baidist.com.ar",
@@ -6290,7 +6290,7 @@
           "displayName": "Agustin Fopiano",
           "identifier": "vendedoresbat@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-12T00:32:45",
+          "last_activity": "2026-05-13T00:50:59",
           "is_active": true
         }
       ]
@@ -6446,8 +6446,8 @@
           "displayName": "Alejandro Perez",
           "identifier": "aperez@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-16T00:13:32",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "auditoria@baidist.com.ar",
@@ -6600,8 +6600,8 @@
       "displayName": "Alejandro Perez",
       "identifier": "aperez@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-04-16T00:13:32",
-      "is_active": true
+      "last_activity": "",
+      "is_active": false
     },
     {
       "emailAddress": "glismore@baidist.com.ar",
@@ -6609,8 +6609,8 @@
       "displayName": "Guillermo Lismore",
       "identifier": "glismore@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "",
-      "is_active": false
+      "last_activity": "2026-05-13T00:52:09",
+      "is_active": true
     },
     {
       "emailAddress": "aivancich@baidist.com.ar",
@@ -6618,7 +6618,7 @@
       "displayName": "Angel Ivancich",
       "identifier": "aivancich@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-05-11T00:46:52",
+      "last_activity": "2026-05-13T00:58:03",
       "is_active": true
     },
     {
@@ -6636,7 +6636,7 @@
       "displayName": "Agustin Fopiano",
       "identifier": "vendedoresbat@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-05-12T00:32:45",
+      "last_activity": "2026-05-13T00:50:59",
       "is_active": true
     },
     {
@@ -6753,7 +6753,7 @@
       "displayName": "tesoreria",
       "identifier": "suptesoreria@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-04-28T00:00:37",
+      "last_activity": "2026-05-13T00:21:17",
       "is_active": true
     },
     {
