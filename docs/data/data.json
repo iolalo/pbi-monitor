@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T12:26:33.593976+00:00",
+  "generated_at": "2026-05-15T12:55:35.319509+00:00",
   "summary": {
     "total_workspaces": 86,
     "total_reports": 113,
@@ -10,7 +10,7 @@
     "top_reports": [
       {
         "id": "cc2bc666-190c-4764-b4c1-0136e9e74b92",
-        "views": 10
+        "views": 11
       },
       {
         "id": "38ff8b65-4dd1-4fd7-99f5-e9949e8ab10d",
@@ -210,7 +210,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         }
       ]
@@ -346,7 +346,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         },
         {
@@ -355,7 +355,7 @@
           "displayName": "Informes Baidist",
           "identifier": "informes@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-03T00:41:33",
+          "last_activity": "2026-05-14T00:00:36",
           "is_active": true
         },
         {
@@ -418,7 +418,7 @@
           "displayName": "Agustin Fopiano",
           "identifier": "vendedoresbat@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-13T00:50:59",
+          "last_activity": "2026-05-14T00:16:37",
           "is_active": true
         },
         {
@@ -507,7 +507,7 @@
           "displayName": "Informes Baidist",
           "identifier": "informes@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-03T00:41:33",
+          "last_activity": "2026-05-14T00:00:36",
           "is_active": true
         }
       ]
@@ -598,7 +598,7 @@
           "name": "Cuentas Corrientes",
           "datasetId": "295a6b0d-bb29-415e-8723-2a8365e6e3e5",
           "createdDateTime": "2026-02-20T14:42:48.743Z",
-          "modifiedDateTime": "2026-05-06T12:20:23.75Z",
+          "modifiedDateTime": "2026-05-14T12:59:48.68Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -743,7 +743,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         },
         {
@@ -1174,7 +1174,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         },
         {
@@ -1424,7 +1424,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         }
       ]
@@ -1750,7 +1750,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         },
         {
@@ -2128,7 +2128,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         },
         {
@@ -2207,7 +2207,7 @@
           "name": "Limpieza - Interior",
           "datasetId": "2e610793-033e-43f1-965c-3178d0848529",
           "createdDateTime": "2025-02-12T17:13:49.823Z",
-          "modifiedDateTime": "2026-05-12T13:27:26.44Z",
+          "modifiedDateTime": "2026-05-15T10:55:26.943Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -2281,7 +2281,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         },
         {
@@ -2564,7 +2564,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         },
         {
@@ -2678,7 +2678,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         },
         {
@@ -2784,7 +2784,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         },
         {
@@ -2947,7 +2947,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         },
         {
@@ -3106,7 +3106,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         },
         {
@@ -3269,7 +3269,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         },
         {
@@ -3506,7 +3506,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         },
         {
@@ -3604,7 +3604,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         },
         {
@@ -3873,7 +3873,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         },
         {
@@ -3974,7 +3974,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         },
         {
@@ -4189,7 +4189,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         },
         {
@@ -4327,7 +4327,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         },
         {
@@ -4676,7 +4676,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         },
         {
@@ -5062,7 +5062,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         },
         {
@@ -5306,7 +5306,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         },
         {
@@ -5669,7 +5669,7 @@
           "displayName": "Power BI Administrador",
           "identifier": "powerbi@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-04-23T00:02:21",
+          "last_activity": "2026-05-14T00:27:47",
           "is_active": true
         },
         {
@@ -6290,7 +6290,7 @@
           "displayName": "Agustin Fopiano",
           "identifier": "vendedoresbat@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-13T00:50:59",
+          "last_activity": "2026-05-14T00:16:37",
           "is_active": true
         }
       ]
@@ -6564,7 +6564,7 @@
       "displayName": "Power BI Administrador",
       "identifier": "powerbi@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-04-23T00:02:21",
+      "last_activity": "2026-05-14T00:27:47",
       "is_active": true
     },
     {
@@ -6573,7 +6573,7 @@
       "displayName": "Informes Baidist",
       "identifier": "informes@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-05-03T00:41:33",
+      "last_activity": "2026-05-14T00:00:36",
       "is_active": true
     },
     {
@@ -6636,7 +6636,7 @@
       "displayName": "Agustin Fopiano",
       "identifier": "vendedoresbat@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-05-13T00:50:59",
+      "last_activity": "2026-05-14T00:16:37",
       "is_active": true
     },
     {
