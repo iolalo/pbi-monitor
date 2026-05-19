@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-18T14:31:47.778643+00:00",
+  "generated_at": "2026-05-19T13:56:50.866445+00:00",
   "summary": {
     "total_workspaces": 86,
-    "total_reports": 115,
+    "total_reports": 114,
     "total_users": 55,
-    "active_users": 13,
-    "inactive_users": 42,
-    "unused_reports": 115,
+    "active_users": 14,
+    "inactive_users": 41,
+    "unused_reports": 114,
     "top_reports": [
       {
         "id": "cc2bc666-190c-4764-b4c1-0136e9e74b92",
@@ -14,11 +14,19 @@
       },
       {
         "id": "fd7868bb-5246-4e6d-bf18-d185190d7a4a",
-        "views": 6
+        "views": 7
       },
       {
         "id": "38ff8b65-4dd1-4fd7-99f5-e9949e8ab10d",
-        "views": 6
+        "views": 7
+      },
+      {
+        "id": "43d5333d-aaad-4fb4-8450-51c0574b6b2a",
+        "views": 5
+      },
+      {
+        "id": "144c6920-4a01-413b-b842-b8b68510cab0",
+        "views": 5
       },
       {
         "id": "d8624702-a983-4706-bab1-0e39fe2a2d8c",
@@ -29,24 +37,16 @@
         "views": 5
       },
       {
-        "id": "144c6920-4a01-413b-b842-b8b68510cab0",
-        "views": 4
-      },
-      {
         "id": "265f8898-8ebd-41fe-8413-361bfa94bb0f",
         "views": 4
       },
       {
-        "id": "43d5333d-aaad-4fb4-8450-51c0574b6b2a",
-        "views": 4
-      },
-      {
-        "id": "59fb6147-7900-4041-b0ca-d3b28fc8b162",
+        "id": "46cfaa74-6be0-4151-9810-42631e010d4b",
         "views": 3
       },
       {
-        "id": "46cfaa74-6be0-4151-9810-42631e010d4b",
-        "views": 2
+        "id": "fed8aca3-aaad-4f52-8ff8-a313be52e005",
+        "views": 3
       }
     ]
   },
@@ -418,7 +418,7 @@
           "displayName": "Agustin Fopiano",
           "identifier": "vendedoresbat@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-14T00:16:37",
+          "last_activity": "2026-05-18T00:56:21",
           "is_active": true
         },
         {
@@ -561,8 +561,8 @@
       "name": "Power BI | Cobranzas",
       "type": "Workspace",
       "state": "Active",
-      "report_count": 6,
-      "dataset_count": 6,
+      "report_count": 5,
+      "dataset_count": 5,
       "user_count": 19,
       "reports": [
         {
@@ -573,19 +573,6 @@
           "datasetId": "7765b1c9-cf58-4587-ad1c-dc97bc54d11c",
           "createdDateTime": "2025-10-30T14:14:35.127Z",
           "modifiedDateTime": "2025-12-26T11:38:50.15Z",
-          "users": [],
-          "subscriptions": [],
-          "views_30d": 0,
-          "unique_users_30d": 0
-        },
-        {
-          "id": "FED8ACA3-AAAD-4F52-8FF8-A313BE52E005",
-          "reportType": "PowerBIReport",
-          "format": "PBIRLegacy",
-          "name": "Power Bi - Efectivo Disponible",
-          "datasetId": "983fa397-5c67-4557-a927-8accf52fadc4",
-          "createdDateTime": "2026-01-15T18:16:01.173Z",
-          "modifiedDateTime": "2026-04-20T15:44:38.24Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -631,13 +618,13 @@
           "unique_users_30d": 0
         },
         {
-          "id": "FD7868BB-5246-4E6D-BF18-D185190D7A4A",
+          "id": "6F95C033-0627-4E50-84DC-0143D0E57000",
           "reportType": "PowerBIReport",
           "format": "PBIRLegacy",
           "name": "Power Bi - Recaudacion",
-          "datasetId": "f9d4a4d1-c3f9-4d48-9364-78c308bc3439",
-          "createdDateTime": "2026-04-20T15:20:09.053Z",
-          "modifiedDateTime": "2026-05-07T17:56:05.357Z",
+          "datasetId": "30615741-d523-4084-91c2-8b2a168969c1",
+          "createdDateTime": "2026-05-18T17:27:46.27Z",
+          "modifiedDateTime": "2026-05-19T13:17:29.48Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -655,21 +642,6 @@
           "isEffectiveIdentityRolesRequired": false,
           "targetStorageMode": "Abf",
           "createdDate": "2025-10-30T14:14:31.447Z",
-          "contentProviderType": "PbixInImportMode",
-          "upstreamDatasets": [],
-          "users": [],
-          "isInPlaceSharingEnabled": false
-        },
-        {
-          "id": "983fa397-5c67-4557-a927-8accf52fadc4",
-          "name": "Power Bi - Efectivo Disponible",
-          "addRowsAPIEnabled": false,
-          "configuredBy": "aperez@baidist.com.ar",
-          "isRefreshable": true,
-          "isEffectiveIdentityRequired": true,
-          "isEffectiveIdentityRolesRequired": true,
-          "targetStorageMode": "Abf",
-          "createdDate": "2026-01-15T18:15:59.707Z",
           "contentProviderType": "PbixInImportMode",
           "upstreamDatasets": [],
           "users": [],
@@ -721,7 +693,7 @@
           "isInPlaceSharingEnabled": false
         },
         {
-          "id": "f9d4a4d1-c3f9-4d48-9364-78c308bc3439",
+          "id": "30615741-d523-4084-91c2-8b2a168969c1",
           "name": "Power Bi - Recaudacion",
           "addRowsAPIEnabled": false,
           "configuredBy": "aperez@baidist.com.ar",
@@ -729,7 +701,7 @@
           "isEffectiveIdentityRequired": true,
           "isEffectiveIdentityRolesRequired": true,
           "targetStorageMode": "Abf",
-          "createdDate": "2026-04-20T15:20:07.693Z",
+          "createdDate": "2026-05-18T17:27:44.75Z",
           "contentProviderType": "PbixInImportMode",
           "upstreamDatasets": [],
           "users": [],
@@ -770,7 +742,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-16T00:48:55",
+          "last_activity": "2026-05-18T00:32:03",
           "is_active": true
         },
         {
@@ -1768,7 +1740,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-16T00:48:55",
+          "last_activity": "2026-05-18T00:32:03",
           "is_active": true
         },
         {
@@ -1835,7 +1807,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-16T00:48:55",
+          "last_activity": "2026-05-18T00:32:03",
           "is_active": true
         }
       ]
@@ -3452,7 +3424,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-16T00:48:55",
+          "last_activity": "2026-05-18T00:32:03",
           "is_active": true
         },
         {
@@ -3658,7 +3630,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-16T00:48:55",
+          "last_activity": "2026-05-18T00:32:03",
           "is_active": true
         },
         {
@@ -3685,8 +3657,8 @@
           "displayName": "Marilina Gette",
           "identifier": "mgette@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "",
-          "is_active": false
+          "last_activity": "2026-05-18T00:18:35",
+          "is_active": true
         },
         {
           "emailAddress": "mcacciatore@baidist.com.ar",
@@ -3943,7 +3915,7 @@
           "name": "Disponibilidad & Stock Inmovilizado",
           "datasetId": "6792f9e7-aee0-4b13-98e3-ee42ee4b2be5",
           "createdDateTime": "2026-04-20T13:38:12.993Z",
-          "modifiedDateTime": "2026-05-18T14:29:02.407Z",
+          "modifiedDateTime": "2026-05-19T13:50:57.72Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -4235,8 +4207,8 @@
           "displayName": "Marilina Gette",
           "identifier": "mgette@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "",
-          "is_active": false
+          "last_activity": "2026-05-18T00:18:35",
+          "is_active": true
         },
         {
           "emailAddress": "robin@baidist.com.ar",
@@ -4275,8 +4247,8 @@
           "displayName": "Marilina Gette",
           "identifier": "mgette@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "",
-          "is_active": false
+          "last_activity": "2026-05-18T00:18:35",
+          "is_active": true
         }
       ]
     },
@@ -4912,7 +4884,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-16T00:48:55",
+          "last_activity": "2026-05-18T00:32:03",
           "is_active": true
         },
         {
@@ -5475,8 +5447,8 @@
       "name": "Power Bi | Finanzas",
       "type": "Workspace",
       "state": "Active",
-      "report_count": 4,
-      "dataset_count": 4,
+      "report_count": 3,
+      "dataset_count": 3,
       "user_count": 6,
       "reports": [
         {
@@ -5506,26 +5478,13 @@
           "unique_users_30d": 0
         },
         {
-          "id": "144C6920-4A01-413B-B842-B8B68510CAB0",
+          "id": "9633597A-C8BC-46F2-AE94-06CD736CFFFA",
           "reportType": "PowerBIReport",
           "format": "PBIRLegacy",
           "name": "Power Bi - Finanzas",
-          "datasetId": "4c733f19-5417-48e9-9f7b-78d6c6d64195",
-          "createdDateTime": "2026-04-17T14:12:05.977Z",
-          "modifiedDateTime": "2026-05-04T13:09:50.637Z",
-          "users": [],
-          "subscriptions": [],
-          "views_30d": 0,
-          "unique_users_30d": 0
-        },
-        {
-          "id": "53E9E4DD-54D5-4DA4-9F83-295AFE273F7A",
-          "reportType": "PowerBIReport",
-          "format": "PBIRLegacy",
-          "name": "Power Bi - Recaudacion",
-          "datasetId": "6354f1a8-957d-422f-b3d6-51682d915ad2",
-          "createdDateTime": "2026-05-18T14:15:05.687Z",
-          "modifiedDateTime": "2026-05-18T14:15:05.687Z",
+          "datasetId": "d9b69828-a9eb-470b-a644-ec9111420127",
+          "createdDateTime": "2026-05-18T17:30:19.803Z",
+          "modifiedDateTime": "2026-05-18T17:30:19.803Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -5564,7 +5523,7 @@
           "isInPlaceSharingEnabled": false
         },
         {
-          "id": "4c733f19-5417-48e9-9f7b-78d6c6d64195",
+          "id": "d9b69828-a9eb-470b-a644-ec9111420127",
           "name": "Power Bi - Finanzas",
           "addRowsAPIEnabled": false,
           "configuredBy": "aperez@baidist.com.ar",
@@ -5572,22 +5531,7 @@
           "isEffectiveIdentityRequired": false,
           "isEffectiveIdentityRolesRequired": false,
           "targetStorageMode": "Abf",
-          "createdDate": "2026-04-17T14:12:04.41Z",
-          "contentProviderType": "PbixInImportMode",
-          "upstreamDatasets": [],
-          "users": [],
-          "isInPlaceSharingEnabled": false
-        },
-        {
-          "id": "6354f1a8-957d-422f-b3d6-51682d915ad2",
-          "name": "Power Bi - Recaudacion",
-          "addRowsAPIEnabled": false,
-          "configuredBy": "aperez@baidist.com.ar",
-          "isRefreshable": true,
-          "isEffectiveIdentityRequired": true,
-          "isEffectiveIdentityRolesRequired": true,
-          "targetStorageMode": "Abf",
-          "createdDate": "2026-05-18T14:15:02.793Z",
+          "createdDate": "2026-05-18T17:30:18.523Z",
           "contentProviderType": "PbixInImportMode",
           "upstreamDatasets": [],
           "users": [],
@@ -5646,7 +5590,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-16T00:48:55",
+          "last_activity": "2026-05-18T00:32:03",
           "is_active": true
         }
       ]
@@ -6346,7 +6290,7 @@
           "displayName": "Agustin Fopiano",
           "identifier": "vendedoresbat@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-14T00:16:37",
+          "last_activity": "2026-05-18T00:56:21",
           "is_active": true
         }
       ]
@@ -6408,8 +6352,8 @@
       "name": "PersonalWorkspace Agustin Pegue",
       "type": "PersonalGroup",
       "state": "Active",
-      "report_count": 1,
-      "dataset_count": 1,
+      "report_count": 2,
+      "dataset_count": 2,
       "user_count": 1,
       "reports": [
         {
@@ -6420,6 +6364,19 @@
           "datasetId": "550fa8c7-75d9-4186-b8ee-71661d8c4eb9",
           "createdDateTime": "2026-03-16T20:00:14.153Z",
           "modifiedDateTime": "2026-03-16T20:00:14.153Z",
+          "users": [],
+          "subscriptions": [],
+          "views_30d": 0,
+          "unique_users_30d": 0
+        },
+        {
+          "id": "DD0128C8-E7AA-4AD0-B062-3527A5614062",
+          "reportType": "PowerBIReport",
+          "format": "PBIRLegacy",
+          "name": "Frescura y riesgo de stock",
+          "datasetId": "545c72a9-952c-4bba-adae-09d927d2e01f",
+          "createdDateTime": "2026-05-18T17:18:38.07Z",
+          "modifiedDateTime": "2026-05-18T17:18:38.07Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -6437,6 +6394,21 @@
           "isEffectiveIdentityRolesRequired": false,
           "targetStorageMode": "Abf",
           "createdDate": "2026-03-16T20:00:12.563Z",
+          "contentProviderType": "PbixInImportMode",
+          "upstreamDatasets": [],
+          "users": [],
+          "isInPlaceSharingEnabled": false
+        },
+        {
+          "id": "545c72a9-952c-4bba-adae-09d927d2e01f",
+          "name": "Frescura y riesgo de stock",
+          "addRowsAPIEnabled": false,
+          "configuredBy": "abastecimiento@baidist.com.ar",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "isEffectiveIdentityRolesRequired": false,
+          "targetStorageMode": "Abf",
+          "createdDate": "2026-05-18T17:18:35.883Z",
           "contentProviderType": "PbixInImportMode",
           "upstreamDatasets": [],
           "users": [],
@@ -6692,7 +6664,7 @@
       "displayName": "Agustin Fopiano",
       "identifier": "vendedoresbat@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-05-14T00:16:37",
+      "last_activity": "2026-05-18T00:56:21",
       "is_active": true
     },
     {
@@ -6746,7 +6718,7 @@
       "displayName": "Mercedes Ciarletta",
       "identifier": "mciarletta@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-05-16T00:48:55",
+      "last_activity": "2026-05-18T00:32:03",
       "is_active": true
     },
     {
@@ -7007,8 +6979,8 @@
       "displayName": "Marilina Gette",
       "identifier": "mgette@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "",
-      "is_active": false
+      "last_activity": "2026-05-18T00:18:35",
+      "is_active": true
     },
     {
       "emailAddress": "grupodelpilar@baidist.com.ar",
