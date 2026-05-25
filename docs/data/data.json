@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T13:33:01.452962+00:00",
+  "generated_at": "2026-05-25T14:09:39.673697+00:00",
   "summary": {
     "total_workspaces": 85,
     "total_reports": 114,
@@ -10,15 +10,11 @@
     "top_reports": [
       {
         "id": "cc2bc666-190c-4764-b4c1-0136e9e74b92",
-        "views": 9
+        "views": 11
       },
       {
         "id": "38ff8b65-4dd1-4fd7-99f5-e9949e8ab10d",
         "views": 9
-      },
-      {
-        "id": "fd7868bb-5246-4e6d-bf18-d185190d7a4a",
-        "views": 7
       },
       {
         "id": "72cc50f4-70f2-4c6e-8132-6f9198272544",
@@ -26,6 +22,10 @@
       },
       {
         "id": "43d5333d-aaad-4fb4-8450-51c0574b6b2a",
+        "views": 6
+      },
+      {
+        "id": "fd7868bb-5246-4e6d-bf18-d185190d7a4a",
         "views": 6
       },
       {
@@ -41,12 +41,12 @@
         "views": 4
       },
       {
-        "id": "fed8aca3-aaad-4f52-8ff8-a313be52e005",
-        "views": 4
+        "id": "e58c4539-8c34-4e11-a3ba-7af187ce56dd",
+        "views": 3
       },
       {
-        "id": "d8624702-a983-4706-bab1-0e39fe2a2d8c",
-        "views": 4
+        "id": "fed8aca3-aaad-4f52-8ff8-a313be52e005",
+        "views": 3
       }
     ]
   },
@@ -355,7 +355,7 @@
           "displayName": "Informes Baidist",
           "identifier": "informes@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-16T00:24:42",
+          "last_activity": "2026-05-24T00:16:56",
           "is_active": true
         },
         {
@@ -418,7 +418,7 @@
           "displayName": "Agustin Fopiano",
           "identifier": "vendedoresbat@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-20T00:23:11",
+          "last_activity": "2026-05-22T00:11:49",
           "is_active": true
         },
         {
@@ -507,7 +507,7 @@
           "displayName": "Informes Baidist",
           "identifier": "informes@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-16T00:24:42",
+          "last_activity": "2026-05-24T00:16:56",
           "is_active": true
         }
       ]
@@ -2856,7 +2856,7 @@
           "name": "BI BANCOS - Contabilidad",
           "datasetId": "55e5e7bf-cf9a-4ad6-bd4d-11fa2d6deb26",
           "createdDateTime": "2026-05-20T02:15:04.617Z",
-          "modifiedDateTime": "2026-05-20T11:31:52.387Z",
+          "modifiedDateTime": "2026-05-22T13:50:22.07Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -6278,7 +6278,7 @@
           "displayName": "Agustin Fopiano",
           "identifier": "vendedoresbat@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-20T00:23:11",
+          "last_activity": "2026-05-22T00:11:49",
           "is_active": true
         }
       ]
@@ -6589,7 +6589,7 @@
       "displayName": "Informes Baidist",
       "identifier": "informes@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-05-16T00:24:42",
+      "last_activity": "2026-05-24T00:16:56",
       "is_active": true
     },
     {
@@ -6652,7 +6652,7 @@
       "displayName": "Agustin Fopiano",
       "identifier": "vendedoresbat@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-05-20T00:23:11",
+      "last_activity": "2026-05-22T00:11:49",
       "is_active": true
     },
     {
