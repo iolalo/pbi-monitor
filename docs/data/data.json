@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T14:09:39.673697+00:00",
+  "generated_at": "2026-05-26T13:55:56.935658+00:00",
   "summary": {
     "total_workspaces": 85,
     "total_reports": 114,
@@ -14,7 +14,7 @@
       },
       {
         "id": "38ff8b65-4dd1-4fd7-99f5-e9949e8ab10d",
-        "views": 9
+        "views": 8
       },
       {
         "id": "72cc50f4-70f2-4c6e-8132-6f9198272544",
@@ -26,7 +26,7 @@
       },
       {
         "id": "fd7868bb-5246-4e6d-bf18-d185190d7a4a",
-        "views": 6
+        "views": 5
       },
       {
         "id": "144c6920-4a01-413b-b842-b8b68510cab0",
@@ -355,7 +355,7 @@
           "displayName": "Informes Baidist",
           "identifier": "informes@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-24T00:16:56",
+          "last_activity": "2026-05-25T00:11:16",
           "is_active": true
         },
         {
@@ -507,7 +507,7 @@
           "displayName": "Informes Baidist",
           "identifier": "informes@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-24T00:16:56",
+          "last_activity": "2026-05-25T00:11:16",
           "is_active": true
         }
       ]
@@ -2013,7 +2013,7 @@
           "name": "Avance de ventas - Conurbano",
           "datasetId": "1203e875-4959-4083-8d9c-cf3a17440255",
           "createdDateTime": "2025-02-11T19:58:00.16Z",
-          "modifiedDateTime": "2026-05-15T13:55:10.837Z",
+          "modifiedDateTime": "2026-05-26T10:45:59.32Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -2179,7 +2179,7 @@
           "name": "Limpieza - Interior",
           "datasetId": "2e610793-033e-43f1-965c-3178d0848529",
           "createdDateTime": "2025-02-12T17:13:49.823Z",
-          "modifiedDateTime": "2026-05-18T13:45:26.18Z",
+          "modifiedDateTime": "2026-05-26T10:21:19.09Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -3026,7 +3026,7 @@
           "displayName": "Bai Logistica",
           "identifier": "bailogistica@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-21T00:49:34",
+          "last_activity": "2026-05-25T00:41:30",
           "is_active": true
         }
       ]
@@ -5285,7 +5285,7 @@
           "displayName": "Bai Logistica",
           "identifier": "bailogistica@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-21T00:49:34",
+          "last_activity": "2026-05-25T00:41:30",
           "is_active": true
         },
         {
@@ -6589,7 +6589,7 @@
       "displayName": "Informes Baidist",
       "identifier": "informes@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-05-24T00:16:56",
+      "last_activity": "2026-05-25T00:11:16",
       "is_active": true
     },
     {
@@ -6940,7 +6940,7 @@
       "displayName": "Bai Logistica",
       "identifier": "bailogistica@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-05-21T00:49:34",
+      "last_activity": "2026-05-25T00:41:30",
       "is_active": true
     },
     {
