@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-26T13:55:56.935658+00:00",
+  "generated_at": "2026-05-27T14:28:17.660026+00:00",
   "summary": {
-    "total_workspaces": 85,
-    "total_reports": 114,
-    "total_users": 55,
+    "total_workspaces": 87,
+    "total_reports": 115,
+    "total_users": 56,
     "active_users": 15,
-    "inactive_users": 40,
-    "unused_reports": 114,
+    "inactive_users": 41,
+    "unused_reports": 115,
     "top_reports": [
       {
         "id": "cc2bc666-190c-4764-b4c1-0136e9e74b92",
@@ -14,7 +14,7 @@
       },
       {
         "id": "38ff8b65-4dd1-4fd7-99f5-e9949e8ab10d",
-        "views": 8
+        "views": 7
       },
       {
         "id": "72cc50f4-70f2-4c6e-8132-6f9198272544",
@@ -742,7 +742,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-20T00:30:19",
+          "last_activity": "2026-05-26T01:02:27",
           "is_active": true
         },
         {
@@ -1740,7 +1740,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-20T00:30:19",
+          "last_activity": "2026-05-26T01:02:27",
           "is_active": true
         },
         {
@@ -1807,7 +1807,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-20T00:30:19",
+          "last_activity": "2026-05-26T01:02:27",
           "is_active": true
         }
       ]
@@ -2725,7 +2725,7 @@
           "name": "Nuevos Negocios",
           "datasetId": "edad9685-0bcd-4633-9c73-3892c5c05ec9",
           "createdDateTime": "2025-05-24T15:59:31.77Z",
-          "modifiedDateTime": "2026-05-15T19:55:22.65Z",
+          "modifiedDateTime": "2026-05-27T12:51:24.387Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -3026,7 +3026,7 @@
           "displayName": "Bai Logistica",
           "identifier": "bailogistica@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-25T00:41:30",
+          "last_activity": "2026-05-26T01:14:29",
           "is_active": true
         }
       ]
@@ -3424,7 +3424,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-20T00:30:19",
+          "last_activity": "2026-05-26T01:02:27",
           "is_active": true
         },
         {
@@ -3630,7 +3630,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-20T00:30:19",
+          "last_activity": "2026-05-26T01:02:27",
           "is_active": true
         },
         {
@@ -4872,7 +4872,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-20T00:30:19",
+          "last_activity": "2026-05-26T01:02:27",
           "is_active": true
         },
         {
@@ -5285,7 +5285,7 @@
           "displayName": "Bai Logistica",
           "identifier": "bailogistica@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-25T00:41:30",
+          "last_activity": "2026-05-26T01:14:29",
           "is_active": true
         },
         {
@@ -5578,7 +5578,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-20T00:30:19",
+          "last_activity": "2026-05-26T01:02:27",
           "is_active": true
         }
       ]
@@ -6571,12 +6571,95 @@
           "is_active": false
         }
       ]
+    },
+    {
+      "id": "2bf4b747-f8f4-48e4-a22a-2dad3f680086",
+      "name": "Gestión Humana",
+      "type": "Workspace",
+      "state": "Active",
+      "report_count": 1,
+      "dataset_count": 1,
+      "user_count": 2,
+      "reports": [
+        {
+          "id": "7CAF5B85-4969-4394-8032-E38C7DA03CA8",
+          "reportType": "PowerBIReport",
+          "format": "PBIRLegacy",
+          "name": "Ficha Tecnica",
+          "datasetId": "681813d0-165c-4365-8e8e-a13971ee74d5",
+          "createdDateTime": "2026-05-26T18:09:27.18Z",
+          "modifiedDateTime": "2026-05-26T18:15:09.59Z",
+          "users": [],
+          "subscriptions": [],
+          "views_30d": 0,
+          "unique_users_30d": 0
+        }
+      ],
+      "datasets": [
+        {
+          "id": "681813d0-165c-4365-8e8e-a13971ee74d5",
+          "name": "Ficha Tecnica",
+          "addRowsAPIEnabled": false,
+          "configuredBy": "alezama@baidist.com.ar",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "isEffectiveIdentityRolesRequired": false,
+          "targetStorageMode": "Abf",
+          "createdDate": "2026-05-26T18:09:25.72Z",
+          "contentProviderType": "PbixInImportMode",
+          "upstreamDatasets": [],
+          "users": [],
+          "isInPlaceSharingEnabled": false
+        }
+      ],
+      "users": [
+        {
+          "emailAddress": "powerbi@baidist.com.ar",
+          "groupUserAccessRight": "Admin",
+          "displayName": "Power BI Administrador",
+          "identifier": "powerbi@baidist.com.ar",
+          "principalType": "User",
+          "last_activity": "2026-05-14T00:27:47",
+          "is_active": true
+        },
+        {
+          "emailAddress": "alezama@baidist.com.ar",
+          "groupUserAccessRight": "Admin",
+          "displayName": "Ani Lezama",
+          "identifier": "alezama@baidist.com.ar",
+          "principalType": "User",
+          "last_activity": "",
+          "is_active": false
+        }
+      ]
+    },
+    {
+      "id": "a76ed2e1-3bbf-4be3-8b2a-1fe54d9a29c7",
+      "name": "PersonalWorkspace Ani Lezama",
+      "type": "PersonalGroup",
+      "state": "Active",
+      "report_count": 0,
+      "dataset_count": 0,
+      "user_count": 1,
+      "reports": [],
+      "datasets": [],
+      "users": [
+        {
+          "emailAddress": "alezama@baidist.com.ar",
+          "groupUserAccessRight": "Admin",
+          "displayName": "Ani Lezama",
+          "identifier": "alezama@baidist.com.ar",
+          "principalType": "User",
+          "last_activity": "",
+          "is_active": false
+        }
+      ]
     }
   ],
   "all_users": [
     {
       "emailAddress": "powerbi@baidist.com.ar",
-      "groupUserAccessRight": "Member",
+      "groupUserAccessRight": "Admin",
       "displayName": "Power BI Administrador",
       "identifier": "powerbi@baidist.com.ar",
       "principalType": "User",
@@ -6706,7 +6789,7 @@
       "displayName": "Mercedes Ciarletta",
       "identifier": "mciarletta@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-05-20T00:30:19",
+      "last_activity": "2026-05-26T01:02:27",
       "is_active": true
     },
     {
@@ -6940,7 +7023,7 @@
       "displayName": "Bai Logistica",
       "identifier": "bailogistica@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-05-25T00:41:30",
+      "last_activity": "2026-05-26T01:14:29",
       "is_active": true
     },
     {
@@ -7065,6 +7148,15 @@
       "groupUserAccessRight": "Admin",
       "displayName": "callcenter",
       "identifier": "callcenter@baidist.com.ar",
+      "principalType": "User",
+      "last_activity": "",
+      "is_active": false
+    },
+    {
+      "emailAddress": "alezama@baidist.com.ar",
+      "groupUserAccessRight": "Admin",
+      "displayName": "Ani Lezama",
+      "identifier": "alezama@baidist.com.ar",
       "principalType": "User",
       "last_activity": "",
       "is_active": false
