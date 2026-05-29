@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T14:38:50.416897+00:00",
+  "generated_at": "2026-05-29T14:10:23.251948+00:00",
   "summary": {
     "total_workspaces": 87,
     "total_reports": 115,
@@ -13,23 +13,19 @@
         "views": 11
       },
       {
+        "id": "38ff8b65-4dd1-4fd7-99f5-e9949e8ab10d",
+        "views": 7
+      },
+      {
         "id": "43d5333d-aaad-4fb4-8450-51c0574b6b2a",
         "views": 7
       },
       {
-        "id": "38ff8b65-4dd1-4fd7-99f5-e9949e8ab10d",
-        "views": 6
-      },
-      {
         "id": "72cc50f4-70f2-4c6e-8132-6f9198272544",
-        "views": 6
-      },
-      {
-        "id": "fd7868bb-5246-4e6d-bf18-d185190d7a4a",
         "views": 5
       },
       {
-        "id": "144c6920-4a01-413b-b842-b8b68510cab0",
+        "id": "fd7868bb-5246-4e6d-bf18-d185190d7a4a",
         "views": 5
       },
       {
@@ -37,11 +33,15 @@
         "views": 4
       },
       {
-        "id": "265f8898-8ebd-41fe-8413-361bfa94bb0f",
+        "id": "144c6920-4a01-413b-b842-b8b68510cab0",
         "views": 4
       },
       {
         "id": "389168c8-ea8c-4dca-9fc9-66b5ced65d15",
+        "views": 3
+      },
+      {
+        "id": "265f8898-8ebd-41fe-8413-361bfa94bb0f",
         "views": 3
       },
       {
@@ -231,7 +231,7 @@
           "name": "Reporte comercial Bai Dist",
           "datasetId": "99b180b4-aca3-4da6-8265-3e4f0a879b5c",
           "createdDateTime": "2025-05-16T13:05:40.8Z",
-          "modifiedDateTime": "2026-05-19T16:40:31.003Z",
+          "modifiedDateTime": "2026-05-29T11:21:26.093Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -418,7 +418,7 @@
           "displayName": "Agustin Fopiano",
           "identifier": "vendedoresbat@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-22T00:11:49",
+          "last_activity": "2026-05-28T00:57:39",
           "is_active": true
         },
         {
@@ -2179,7 +2179,7 @@
           "name": "Limpieza - Interior",
           "datasetId": "2e610793-033e-43f1-965c-3178d0848529",
           "createdDateTime": "2025-02-12T17:13:49.823Z",
-          "modifiedDateTime": "2026-05-26T10:21:19.09Z",
+          "modifiedDateTime": "2026-05-29T11:15:03.74Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -2462,7 +2462,7 @@
           "name": "Logística Centralizada",
           "datasetId": "dbe09452-af5c-42c8-bcaa-1955b9bf32a9",
           "createdDateTime": "2026-01-26T15:50:45.73Z",
-          "modifiedDateTime": "2026-05-05T13:50:54.547Z",
+          "modifiedDateTime": "2026-05-29T12:37:41.6Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -3026,7 +3026,7 @@
           "displayName": "Bai Logistica",
           "identifier": "bailogistica@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-26T01:14:29",
+          "last_activity": "2026-05-28T00:55:35",
           "is_active": true
         }
       ]
@@ -3915,7 +3915,7 @@
           "name": "Disponibilidad & Stock Inmovilizado",
           "datasetId": "6792f9e7-aee0-4b13-98e3-ee42ee4b2be5",
           "createdDateTime": "2026-04-20T13:38:12.993Z",
-          "modifiedDateTime": "2026-05-21T19:06:39.44Z",
+          "modifiedDateTime": "2026-05-29T12:02:25.34Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -3955,7 +3955,7 @@
           "id": "1e18c82e-f00d-4029-a95b-eef91098bf0a",
           "name": "Disponibilidad & Stock Inmovilizado (Macro)",
           "addRowsAPIEnabled": false,
-          "configuredBy": "powerbi@baidist.com.ar",
+          "configuredBy": "aperez@baidist.com.ar",
           "isRefreshable": true,
           "isEffectiveIdentityRequired": false,
           "isEffectiveIdentityRolesRequired": false,
@@ -4633,7 +4633,7 @@
           "name": "ABM-CLIENTES-2026",
           "datasetId": "2234b008-d024-4562-9703-b4743e65e965",
           "createdDateTime": "2026-01-15T12:15:17.713Z",
-          "modifiedDateTime": "2026-05-27T16:25:50.607Z",
+          "modifiedDateTime": "2026-05-28T14:44:18.523Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -5285,7 +5285,7 @@
           "displayName": "Bai Logistica",
           "identifier": "bailogistica@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-26T01:14:29",
+          "last_activity": "2026-05-28T00:55:35",
           "is_active": true
         },
         {
@@ -6278,7 +6278,7 @@
           "displayName": "Agustin Fopiano",
           "identifier": "vendedoresbat@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-22T00:11:49",
+          "last_activity": "2026-05-28T00:57:39",
           "is_active": true
         }
       ]
@@ -6735,7 +6735,7 @@
       "displayName": "Agustin Fopiano",
       "identifier": "vendedoresbat@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-05-22T00:11:49",
+      "last_activity": "2026-05-28T00:57:39",
       "is_active": true
     },
     {
@@ -7023,7 +7023,7 @@
       "displayName": "Bai Logistica",
       "identifier": "bailogistica@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-05-26T01:14:29",
+      "last_activity": "2026-05-28T00:55:35",
       "is_active": true
     },
     {
