@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T16:39:31.464957+00:00",
+  "generated_at": "2026-06-02T14:55:25.499149+00:00",
   "summary": {
     "total_workspaces": 87,
     "total_reports": 117,
@@ -21,11 +21,11 @@
         "views": 7
       },
       {
-        "id": "59fb6147-7900-4041-b0ca-d3b28fc8b162",
-        "views": 4
+        "id": "35d64331-46fb-42fc-bf5c-3f2060c4be1f",
+        "views": 5
       },
       {
-        "id": "72cc50f4-70f2-4c6e-8132-6f9198272544",
+        "id": "59fb6147-7900-4041-b0ca-d3b28fc8b162",
         "views": 4
       },
       {
@@ -33,7 +33,7 @@
         "views": 4
       },
       {
-        "id": "35d64331-46fb-42fc-bf5c-3f2060c4be1f",
+        "id": "265f8898-8ebd-41fe-8413-361bfa94bb0f",
         "views": 3
       },
       {
@@ -742,7 +742,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-30T00:25:04",
+          "last_activity": "2026-06-01T00:46:59",
           "is_active": true
         },
         {
@@ -1740,7 +1740,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-30T00:25:04",
+          "last_activity": "2026-06-01T00:46:59",
           "is_active": true
         },
         {
@@ -1807,7 +1807,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-30T00:25:04",
+          "last_activity": "2026-06-01T00:46:59",
           "is_active": true
         }
       ]
@@ -2302,7 +2302,7 @@
           "displayName": "Reportes Limpieza Interior",
           "identifier": "limpiezainterior@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-20T00:11:19",
+          "last_activity": "2026-06-01T00:19:37",
           "is_active": true
         }
       ]
@@ -2462,7 +2462,7 @@
           "name": "Logística Centralizada",
           "datasetId": "dbe09452-af5c-42c8-bcaa-1955b9bf32a9",
           "createdDateTime": "2026-01-26T15:50:45.73Z",
-          "modifiedDateTime": "2026-05-29T20:26:55.243Z",
+          "modifiedDateTime": "2026-06-01T18:34:47.95Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -3424,7 +3424,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-30T00:25:04",
+          "last_activity": "2026-06-01T00:46:59",
           "is_active": true
         },
         {
@@ -3630,7 +3630,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-30T00:25:04",
+          "last_activity": "2026-06-01T00:46:59",
           "is_active": true
         },
         {
@@ -4633,7 +4633,7 @@
           "name": "ABM-CLIENTES-2026",
           "datasetId": "2234b008-d024-4562-9703-b4743e65e965",
           "createdDateTime": "2026-01-15T12:15:17.713Z",
-          "modifiedDateTime": "2026-05-28T14:44:18.523Z",
+          "modifiedDateTime": "2026-06-02T11:09:21.987Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -4872,7 +4872,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-30T00:25:04",
+          "last_activity": "2026-06-01T00:46:59",
           "is_active": true
         },
         {
@@ -4976,7 +4976,7 @@
           "name": "Avance de ventas - Murken (Preview)",
           "datasetId": "c7223b2e-1eb6-4210-9bed-5b247aa6851e",
           "createdDateTime": "2026-01-16T16:04:55.953Z",
-          "modifiedDateTime": "2026-05-29T20:08:54.16Z",
+          "modifiedDateTime": "2026-06-01T19:20:03.473Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -5578,7 +5578,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-30T00:25:04",
+          "last_activity": "2026-06-01T00:46:59",
           "is_active": true
         }
       ]
@@ -5899,7 +5899,7 @@
           "name": "Stock & Giros V3 (Optimizado por Agus)",
           "datasetId": "d94a11c4-ef1d-41c4-9514-0c0ce5c4645d",
           "createdDateTime": "2026-04-27T18:00:20.407Z",
-          "modifiedDateTime": "2026-05-14T12:17:39.543Z",
+          "modifiedDateTime": "2026-06-01T19:54:01.067Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -6847,7 +6847,7 @@
       "displayName": "Mercedes Ciarletta",
       "identifier": "mciarletta@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-05-30T00:25:04",
+      "last_activity": "2026-06-01T00:46:59",
       "is_active": true
     },
     {
@@ -7054,7 +7054,7 @@
       "displayName": "Reportes Limpieza Interior",
       "identifier": "limpiezainterior@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-05-20T00:11:19",
+      "last_activity": "2026-06-01T00:19:37",
       "is_active": true
     },
     {
