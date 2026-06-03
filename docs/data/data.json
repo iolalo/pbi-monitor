@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-02T14:55:25.499149+00:00",
+  "generated_at": "2026-06-03T15:28:18.623675+00:00",
   "summary": {
     "total_workspaces": 87,
     "total_reports": 117,
     "total_users": 56,
-    "active_users": 16,
-    "inactive_users": 40,
+    "active_users": 17,
+    "inactive_users": 39,
     "unused_reports": 117,
     "top_reports": [
       {
@@ -33,6 +33,10 @@
         "views": 4
       },
       {
+        "id": "72cc50f4-70f2-4c6e-8132-6f9198272544",
+        "views": 3
+      },
+      {
         "id": "265f8898-8ebd-41fe-8413-361bfa94bb0f",
         "views": 3
       },
@@ -42,10 +46,6 @@
       },
       {
         "id": "e58c4539-8c34-4e11-a3ba-7af187ce56dd",
-        "views": 3
-      },
-      {
-        "id": "fed8aca3-aaad-4f52-8ff8-a313be52e005",
         "views": 3
       }
     ]
@@ -598,7 +598,7 @@
           "name": "Cuentas Corrientes  - Vista Gerencial",
           "datasetId": "deddbad7-7288-4b9a-adc5-abcd85f4942a",
           "createdDateTime": "2026-02-20T15:24:14.257Z",
-          "modifiedDateTime": "2026-05-04T17:57:44.09Z",
+          "modifiedDateTime": "2026-06-02T19:56:04.88Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -742,7 +742,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-01T00:46:59",
+          "last_activity": "2026-06-02T00:02:31",
           "is_active": true
         },
         {
@@ -1100,7 +1100,7 @@
           "name": "Power BI - Cuentas Especiales",
           "datasetId": "e9b37449-da80-4f0f-b7c3-4c2b3c0afc13",
           "createdDateTime": "2026-03-30T15:21:54.153Z",
-          "modifiedDateTime": "2026-06-01T12:42:30.243Z",
+          "modifiedDateTime": "2026-06-03T13:11:37.85Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -1522,8 +1522,8 @@
           "displayName": "Guillermo Rubiano",
           "identifier": "grubiano@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "",
-          "is_active": false
+          "last_activity": "2026-06-02T00:39:33",
+          "is_active": true
         }
       ]
     },
@@ -1740,7 +1740,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-01T00:46:59",
+          "last_activity": "2026-06-02T00:02:31",
           "is_active": true
         },
         {
@@ -1807,7 +1807,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-01T00:46:59",
+          "last_activity": "2026-06-02T00:02:31",
           "is_active": true
         }
       ]
@@ -2039,7 +2039,7 @@
           "name": "GO-TO-MARKET",
           "datasetId": "d5ed0341-88c7-4ada-a635-1d0ceb2e57f2",
           "createdDateTime": "2026-04-13T13:40:30.81Z",
-          "modifiedDateTime": "2026-05-04T17:53:57.99Z",
+          "modifiedDateTime": "2026-06-03T14:45:12.1Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -3424,7 +3424,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-01T00:46:59",
+          "last_activity": "2026-06-02T00:02:31",
           "is_active": true
         },
         {
@@ -3460,8 +3460,8 @@
           "displayName": "Guillermo Rubiano",
           "identifier": "grubiano@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "",
-          "is_active": false
+          "last_activity": "2026-06-02T00:39:33",
+          "is_active": true
         },
         {
           "emailAddress": "sfrers@baidist.com.ar",
@@ -3630,7 +3630,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-01T00:46:59",
+          "last_activity": "2026-06-02T00:02:31",
           "is_active": true
         },
         {
@@ -3648,8 +3648,8 @@
           "displayName": "Guillermo Rubiano",
           "identifier": "grubiano@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "",
-          "is_active": false
+          "last_activity": "2026-06-02T00:39:33",
+          "is_active": true
         },
         {
           "emailAddress": "mgette@baidist.com.ar",
@@ -4872,7 +4872,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-01T00:46:59",
+          "last_activity": "2026-06-02T00:02:31",
           "is_active": true
         },
         {
@@ -5578,7 +5578,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-01T00:46:59",
+          "last_activity": "2026-06-02T00:02:31",
           "is_active": true
         }
       ]
@@ -6847,7 +6847,7 @@
       "displayName": "Mercedes Ciarletta",
       "identifier": "mciarletta@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-06-01T00:46:59",
+      "last_activity": "2026-06-02T00:02:31",
       "is_active": true
     },
     {
@@ -7000,8 +7000,8 @@
       "displayName": "Guillermo Rubiano",
       "identifier": "grubiano@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "",
-      "is_active": false
+      "last_activity": "2026-06-02T00:39:33",
+      "is_active": true
     },
     {
       "emailAddress": "danielrodriguez@baidist.com.ar",
