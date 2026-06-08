@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-05T13:52:44.228015+00:00",
+  "generated_at": "2026-06-08T14:49:52.315496+00:00",
   "summary": {
-    "total_workspaces": 87,
+    "total_workspaces": 88,
     "total_reports": 118,
-    "total_users": 56,
+    "total_users": 57,
     "active_users": 18,
-    "inactive_users": 38,
+    "inactive_users": 39,
     "unused_reports": 118,
     "top_reports": [
       {
@@ -25,15 +25,15 @@
         "views": 5
       },
       {
+        "id": "6f95c033-0627-4e50-84dc-0143d0e57000",
+        "views": 4
+      },
+      {
         "id": "59fb6147-7900-4041-b0ca-d3b28fc8b162",
         "views": 4
       },
       {
         "id": "72cc50f4-70f2-4c6e-8132-6f9198272544",
-        "views": 3
-      },
-      {
-        "id": "6f95c033-0627-4e50-84dc-0143d0e57000",
         "views": 3
       },
       {
@@ -45,7 +45,7 @@
         "views": 3
       },
       {
-        "id": "265f8898-8ebd-41fe-8413-361bfa94bb0f",
+        "id": "389168c8-ea8c-4dca-9fc9-66b5ced65d15",
         "views": 3
       }
     ]
@@ -742,7 +742,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-04T00:10:31",
+          "last_activity": "2026-06-05T00:35:28",
           "is_active": true
         },
         {
@@ -1740,7 +1740,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-04T00:10:31",
+          "last_activity": "2026-06-05T00:35:28",
           "is_active": true
         },
         {
@@ -1807,7 +1807,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-04T00:10:31",
+          "last_activity": "2026-06-05T00:35:28",
           "is_active": true
         }
       ]
@@ -2166,7 +2166,7 @@
           "name": "PLAN MAS LIMPIEZA",
           "datasetId": "950fe60f-2180-4029-be66-28f30c42c2c7",
           "createdDateTime": "2025-02-11T20:02:25.843Z",
-          "modifiedDateTime": "2025-10-24T13:48:58.933Z",
+          "modifiedDateTime": "2026-06-08T14:37:45.247Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -2856,7 +2856,7 @@
           "name": "BI BANCOS - Contabilidad",
           "datasetId": "55e5e7bf-cf9a-4ad6-bd4d-11fa2d6deb26",
           "createdDateTime": "2026-05-20T02:15:04.617Z",
-          "modifiedDateTime": "2026-05-22T13:50:22.07Z",
+          "modifiedDateTime": "2026-06-05T19:48:31.537Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -3342,7 +3342,7 @@
           "name": "Power BI - P&L V2",
           "datasetId": "9a276347-bb1b-415c-aff2-683795f03dad",
           "createdDateTime": "2026-03-04T18:44:00.34Z",
-          "modifiedDateTime": "2026-06-04T15:03:16.417Z",
+          "modifiedDateTime": "2026-06-05T17:36:40.663Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -3424,7 +3424,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-04T00:10:31",
+          "last_activity": "2026-06-05T00:35:28",
           "is_active": true
         },
         {
@@ -3630,7 +3630,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-04T00:10:31",
+          "last_activity": "2026-06-05T00:35:28",
           "is_active": true
         },
         {
@@ -3906,7 +3906,7 @@
       "state": "Active",
       "report_count": 2,
       "dataset_count": 2,
-      "user_count": 16,
+      "user_count": 18,
       "reports": [
         {
           "id": "9675FC23-58CA-46E9-AB1A-B48755174063",
@@ -3928,7 +3928,7 @@
           "name": "Disponibilidad & Stock Inmovilizado (Macro)",
           "datasetId": "1e18c82e-f00d-4029-a95b-eef91098bf0a",
           "createdDateTime": "2026-05-17T03:32:18.93Z",
-          "modifiedDateTime": "2026-06-01T12:09:16.7Z",
+          "modifiedDateTime": "2026-06-05T14:04:11.773Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -4111,6 +4111,24 @@
           "principalType": "User",
           "last_activity": "",
           "is_active": false
+        },
+        {
+          "emailAddress": "gestioncomercial@baidist.com.ar",
+          "groupUserAccessRight": "Viewer",
+          "displayName": "Gestión Comercial",
+          "identifier": "gestioncomercial@baidist.com.ar",
+          "principalType": "User",
+          "last_activity": "",
+          "is_active": false
+        },
+        {
+          "emailAddress": "limpiezainterior@baidist.com.ar",
+          "groupUserAccessRight": "Viewer",
+          "displayName": "Reportes Limpieza Interior",
+          "identifier": "limpiezainterior@baidist.com.ar",
+          "principalType": "User",
+          "last_activity": "2026-06-01T00:19:37",
+          "is_active": true
         }
       ]
     },
@@ -4980,7 +4998,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-04T00:10:31",
+          "last_activity": "2026-06-05T00:35:28",
           "is_active": true
         },
         {
@@ -5686,7 +5704,7 @@
           "displayName": "Mercedes Ciarletta",
           "identifier": "mciarletta@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-04T00:10:31",
+          "last_activity": "2026-06-05T00:35:28",
           "is_active": true
         }
       ]
@@ -6848,6 +6866,28 @@
           "is_active": false
         }
       ]
+    },
+    {
+      "id": "1a8cd0e5-ccde-40c9-b09e-a4b88bebe066",
+      "name": "PersonalWorkspace gestioncomercial@baidist.com.ar",
+      "type": "PersonalGroup",
+      "state": "Active",
+      "report_count": 0,
+      "dataset_count": 0,
+      "user_count": 1,
+      "reports": [],
+      "datasets": [],
+      "users": [
+        {
+          "emailAddress": "gestioncomercial@baidist.com.ar",
+          "groupUserAccessRight": "Admin",
+          "displayName": "Gestión Comercial",
+          "identifier": "gestioncomercial@baidist.com.ar",
+          "principalType": "User",
+          "last_activity": "",
+          "is_active": false
+        }
+      ]
     }
   ],
   "all_users": [
@@ -6983,7 +7023,7 @@
       "displayName": "Mercedes Ciarletta",
       "identifier": "mciarletta@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-06-04T00:10:31",
+      "last_activity": "2026-06-05T00:35:28",
       "is_active": true
     },
     {
@@ -7186,7 +7226,7 @@
     },
     {
       "emailAddress": "limpiezainterior@baidist.com.ar",
-      "groupUserAccessRight": "Admin",
+      "groupUserAccessRight": "Viewer",
       "displayName": "Reportes Limpieza Interior",
       "identifier": "limpiezainterior@baidist.com.ar",
       "principalType": "User",
@@ -7279,6 +7319,15 @@
       "groupUserAccessRight": "Admin",
       "displayName": "Tienda CCU",
       "identifier": "tiendaccu@baidist.com.ar",
+      "principalType": "User",
+      "last_activity": "",
+      "is_active": false
+    },
+    {
+      "emailAddress": "gestioncomercial@baidist.com.ar",
+      "groupUserAccessRight": "Admin",
+      "displayName": "Gestión Comercial",
+      "identifier": "gestioncomercial@baidist.com.ar",
       "principalType": "User",
       "last_activity": "",
       "is_active": false
