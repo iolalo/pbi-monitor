@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-06-08T14:49:52.315496+00:00",
+  "generated_at": "2026-06-09T13:45:25.430105+00:00",
   "summary": {
     "total_workspaces": 88,
-    "total_reports": 118,
+    "total_reports": 119,
     "total_users": 57,
     "active_users": 18,
     "inactive_users": 39,
-    "unused_reports": 118,
+    "unused_reports": 119,
     "top_reports": [
       {
         "id": "cc2bc666-190c-4764-b4c1-0136e9e74b92",
-        "views": 11
-      },
-      {
-        "id": "38ff8b65-4dd1-4fd7-99f5-e9949e8ab10d",
-        "views": 9
+        "views": 13
       },
       {
         "id": "43d5333d-aaad-4fb4-8450-51c0574b6b2a",
         "views": 8
       },
       {
+        "id": "38ff8b65-4dd1-4fd7-99f5-e9949e8ab10d",
+        "views": 8
+      },
+      {
         "id": "35d64331-46fb-42fc-bf5c-3f2060c4be1f",
-        "views": 5
+        "views": 6
       },
       {
         "id": "6f95c033-0627-4e50-84dc-0143d0e57000",
@@ -355,7 +355,7 @@
           "displayName": "Informes Baidist",
           "identifier": "informes@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-30T00:08:48",
+          "last_activity": "2026-06-08T00:23:04",
           "is_active": true
         },
         {
@@ -418,7 +418,7 @@
           "displayName": "Agustin Fopiano",
           "identifier": "vendedoresbat@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-30T00:53:26",
+          "last_activity": "2026-06-08T00:14:38",
           "is_active": true
         },
         {
@@ -507,7 +507,7 @@
           "displayName": "Informes Baidist",
           "identifier": "informes@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-30T00:08:48",
+          "last_activity": "2026-06-08T00:23:04",
           "is_active": true
         }
       ]
@@ -2013,7 +2013,7 @@
           "name": "Avance de ventas - Conurbano",
           "datasetId": "1203e875-4959-4083-8d9c-cf3a17440255",
           "createdDateTime": "2025-02-11T19:58:00.16Z",
-          "modifiedDateTime": "2026-06-01T14:30:38.277Z",
+          "modifiedDateTime": "2026-06-08T17:53:04.667Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -2166,7 +2166,7 @@
           "name": "PLAN MAS LIMPIEZA",
           "datasetId": "950fe60f-2180-4029-be66-28f30c42c2c7",
           "createdDateTime": "2025-02-11T20:02:25.843Z",
-          "modifiedDateTime": "2026-06-08T14:37:45.247Z",
+          "modifiedDateTime": "2026-06-08T16:56:32.163Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -2179,7 +2179,7 @@
           "name": "Limpieza - Interior",
           "datasetId": "2e610793-033e-43f1-965c-3178d0848529",
           "createdDateTime": "2025-02-12T17:13:49.823Z",
-          "modifiedDateTime": "2026-06-01T14:10:54.9Z",
+          "modifiedDateTime": "2026-06-08T17:54:47.65Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -3657,7 +3657,7 @@
           "displayName": "Marilina Gette",
           "identifier": "mgette@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-27T00:43:40",
+          "last_activity": "2026-06-08T00:19:22",
           "is_active": true
         },
         {
@@ -4091,7 +4091,7 @@
           "displayName": "Marilina Gette",
           "identifier": "mgette@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-27T00:43:40",
+          "last_activity": "2026-06-08T00:19:22",
           "is_active": true
         },
         {
@@ -4333,7 +4333,7 @@
           "displayName": "Marilina Gette",
           "identifier": "mgette@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-27T00:43:40",
+          "last_activity": "2026-06-08T00:19:22",
           "is_active": true
         },
         {
@@ -4373,7 +4373,7 @@
           "displayName": "Marilina Gette",
           "identifier": "mgette@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-27T00:43:40",
+          "last_activity": "2026-06-08T00:19:22",
           "is_active": true
         }
       ]
@@ -5089,7 +5089,7 @@
           "name": "Avance de ventas - Murken",
           "datasetId": "32d65b21-e81d-413b-b2fa-ae9235ba0c9f",
           "createdDateTime": "2025-12-16T18:25:47.757Z",
-          "modifiedDateTime": "2026-06-04T16:42:18.47Z",
+          "modifiedDateTime": "2026-06-08T17:12:32.947Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -6460,7 +6460,7 @@
           "displayName": "Agustin Fopiano",
           "identifier": "vendedoresbat@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-30T00:53:26",
+          "last_activity": "2026-06-08T00:14:38",
           "is_active": true
         }
       ]
@@ -6872,11 +6872,41 @@
       "name": "PersonalWorkspace gestioncomercial@baidist.com.ar",
       "type": "PersonalGroup",
       "state": "Active",
-      "report_count": 0,
-      "dataset_count": 0,
+      "report_count": 1,
+      "dataset_count": 1,
       "user_count": 1,
-      "reports": [],
-      "datasets": [],
+      "reports": [
+        {
+          "id": "B2A16038-BB6D-41E1-8C07-276C7B324060",
+          "reportType": "PowerBIReport",
+          "format": "PBIRLegacy",
+          "name": "Getting Started in Power BI",
+          "datasetId": "f4b63d46-d613-4990-905c-69df6ebaadfd",
+          "createdDateTime": "2026-06-08T19:45:32.147Z",
+          "modifiedDateTime": "2026-06-08T19:45:32.147Z",
+          "users": [],
+          "subscriptions": [],
+          "views_30d": 0,
+          "unique_users_30d": 0
+        }
+      ],
+      "datasets": [
+        {
+          "id": "f4b63d46-d613-4990-905c-69df6ebaadfd",
+          "name": "Getting Started in Power BI",
+          "addRowsAPIEnabled": false,
+          "configuredBy": "gestioncomercial@baidist.com.ar",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "isEffectiveIdentityRolesRequired": false,
+          "targetStorageMode": "Abf",
+          "createdDate": "2026-06-08T19:45:30.67Z",
+          "contentProviderType": "PbixInImportMode",
+          "upstreamDatasets": [],
+          "users": [],
+          "isInPlaceSharingEnabled": false
+        }
+      ],
       "users": [
         {
           "emailAddress": "gestioncomercial@baidist.com.ar",
@@ -6906,7 +6936,7 @@
       "displayName": "Informes Baidist",
       "identifier": "informes@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-05-30T00:08:48",
+      "last_activity": "2026-06-08T00:23:04",
       "is_active": true
     },
     {
@@ -6969,7 +6999,7 @@
       "displayName": "Agustin Fopiano",
       "identifier": "vendedoresbat@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-05-30T00:53:26",
+      "last_activity": "2026-06-08T00:14:38",
       "is_active": true
     },
     {
@@ -7284,7 +7314,7 @@
       "displayName": "Marilina Gette",
       "identifier": "mgette@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-05-27T00:43:40",
+      "last_activity": "2026-06-08T00:19:22",
       "is_active": true
     },
     {
