@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-09T13:45:25.430105+00:00",
+  "generated_at": "2026-06-10T14:24:49.024729+00:00",
   "summary": {
     "total_workspaces": 88,
     "total_reports": 119,
     "total_users": 57,
-    "active_users": 18,
-    "inactive_users": 39,
+    "active_users": 17,
+    "inactive_users": 40,
     "unused_reports": 119,
     "top_reports": [
       {
         "id": "cc2bc666-190c-4764-b4c1-0136e9e74b92",
-        "views": 13
+        "views": 14
       },
       {
         "id": "43d5333d-aaad-4fb4-8450-51c0574b6b2a",
@@ -18,11 +18,15 @@
       },
       {
         "id": "38ff8b65-4dd1-4fd7-99f5-e9949e8ab10d",
-        "views": 8
+        "views": 7
       },
       {
         "id": "35d64331-46fb-42fc-bf5c-3f2060c4be1f",
         "views": 6
+      },
+      {
+        "id": "389168c8-ea8c-4dca-9fc9-66b5ced65d15",
+        "views": 4
       },
       {
         "id": "6f95c033-0627-4e50-84dc-0143d0e57000",
@@ -42,10 +46,6 @@
       },
       {
         "id": "7d82eb47-bde9-4b7a-bf96-843d342a344c",
-        "views": 3
-      },
-      {
-        "id": "389168c8-ea8c-4dca-9fc9-66b5ced65d15",
         "views": 3
       }
     ]
@@ -231,7 +231,7 @@
           "name": "Reporte comercial Bai Dist",
           "datasetId": "99b180b4-aca3-4da6-8265-3e4f0a879b5c",
           "createdDateTime": "2025-05-16T13:05:40.8Z",
-          "modifiedDateTime": "2026-05-29T19:23:59.613Z",
+          "modifiedDateTime": "2026-06-09T23:41:59.04Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -270,7 +270,7 @@
           "name": "Cobertura Cigarrillos - Mobile",
           "datasetId": "fa6d9740-a16c-476e-9e2b-b242f492798f",
           "createdDateTime": "2026-03-03T13:14:42.127Z",
-          "modifiedDateTime": "2026-05-29T18:48:44.417Z",
+          "modifiedDateTime": "2026-06-09T20:20:02.35Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -391,8 +391,8 @@
           "displayName": "Guillermo Lismore",
           "identifier": "glismore@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-13T00:52:09",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "aivancich@baidist.com.ar",
@@ -418,7 +418,7 @@
           "displayName": "Agustin Fopiano",
           "identifier": "vendedoresbat@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-08T00:14:38",
+          "last_activity": "2026-06-09T00:39:59",
           "is_active": true
         },
         {
@@ -787,8 +787,8 @@
           "displayName": "Guillermo Lismore",
           "identifier": "glismore@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-13T00:52:09",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "sfrers@baidist.com.ar",
@@ -1316,8 +1316,8 @@
           "displayName": "Guillermo Lismore",
           "identifier": "glismore@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-13T00:52:09",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         }
       ]
     },
@@ -2013,7 +2013,7 @@
           "name": "Avance de ventas - Conurbano",
           "datasetId": "1203e875-4959-4083-8d9c-cf3a17440255",
           "createdDateTime": "2025-02-11T19:58:00.16Z",
-          "modifiedDateTime": "2026-06-08T17:53:04.667Z",
+          "modifiedDateTime": "2026-06-10T10:49:48.367Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -2179,7 +2179,7 @@
           "name": "Limpieza - Interior",
           "datasetId": "2e610793-033e-43f1-965c-3178d0848529",
           "createdDateTime": "2025-02-12T17:13:49.823Z",
-          "modifiedDateTime": "2026-06-08T17:54:47.65Z",
+          "modifiedDateTime": "2026-06-10T11:22:59.587Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -2719,13 +2719,13 @@
       "user_count": 4,
       "reports": [
         {
-          "id": "E58C4539-8C34-4E11-A3BA-7AF187CE56DD",
+          "id": "01CD979D-8DD3-4322-AB06-82BB45F2ADB4",
           "reportType": "PowerBIReport",
           "format": "PBIRLegacy",
-          "name": "Nuevos Negocios",
-          "datasetId": "edad9685-0bcd-4633-9c73-3892c5c05ec9",
-          "createdDateTime": "2025-05-24T15:59:31.77Z",
-          "modifiedDateTime": "2026-05-29T19:59:09.28Z",
+          "name": "Power BI - Nuevos Negocios",
+          "datasetId": "bb1122c1-97fa-4c8e-9d61-615b5886df04",
+          "createdDateTime": "2026-06-09T15:55:25.78Z",
+          "modifiedDateTime": "2026-06-09T16:37:37.317Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -2734,15 +2734,15 @@
       ],
       "datasets": [
         {
-          "id": "edad9685-0bcd-4633-9c73-3892c5c05ec9",
-          "name": "Nuevos Negocios",
+          "id": "bb1122c1-97fa-4c8e-9d61-615b5886df04",
+          "name": "Power BI - Nuevos Negocios",
           "addRowsAPIEnabled": false,
           "configuredBy": "aperez@baidist.com.ar",
           "isRefreshable": true,
           "isEffectiveIdentityRequired": false,
           "isEffectiveIdentityRolesRequired": false,
-          "targetStorageMode": "PremiumFiles",
-          "createdDate": "2025-05-24T15:59:27.88Z",
+          "targetStorageMode": "Abf",
+          "createdDate": "2026-06-09T15:55:24.003Z",
           "contentProviderType": "PbixInImportMode",
           "upstreamDatasets": [],
           "users": [],
@@ -2783,8 +2783,8 @@
           "displayName": "Guillermo Lismore",
           "identifier": "glismore@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-13T00:52:09",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         }
       ]
     },
@@ -3639,8 +3639,8 @@
           "displayName": "Guillermo Lismore",
           "identifier": "glismore@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-13T00:52:09",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "grubiano@baidist.com.ar",
@@ -3657,7 +3657,7 @@
           "displayName": "Marilina Gette",
           "identifier": "mgette@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-08T00:19:22",
+          "last_activity": "2026-06-09T00:05:51",
           "is_active": true
         },
         {
@@ -4019,8 +4019,8 @@
           "displayName": "Guillermo Lismore",
           "identifier": "glismore@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-13T00:52:09",
-          "is_active": true
+          "last_activity": "",
+          "is_active": false
         },
         {
           "emailAddress": "grubiano@baidist.com.ar",
@@ -4091,7 +4091,7 @@
           "displayName": "Marilina Gette",
           "identifier": "mgette@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-08T00:19:22",
+          "last_activity": "2026-06-09T00:05:51",
           "is_active": true
         },
         {
@@ -4333,7 +4333,7 @@
           "displayName": "Marilina Gette",
           "identifier": "mgette@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-08T00:19:22",
+          "last_activity": "2026-06-09T00:05:51",
           "is_active": true
         },
         {
@@ -4373,7 +4373,7 @@
           "displayName": "Marilina Gette",
           "identifier": "mgette@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-08T00:19:22",
+          "last_activity": "2026-06-09T00:05:51",
           "is_active": true
         }
       ]
@@ -5102,7 +5102,7 @@
           "name": "Avance de ventas - Murken (Preview)",
           "datasetId": "c7223b2e-1eb6-4210-9bed-5b247aa6851e",
           "createdDateTime": "2026-01-16T16:04:55.953Z",
-          "modifiedDateTime": "2026-06-01T19:20:03.473Z",
+          "modifiedDateTime": "2026-06-10T05:54:25.717Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -5127,7 +5127,7 @@
           "id": "32d65b21-e81d-413b-b2fa-ae9235ba0c9f",
           "name": "Avance de ventas - Murken",
           "addRowsAPIEnabled": false,
-          "configuredBy": "aperez@baidist.com.ar",
+          "configuredBy": "powerbi@baidist.com.ar",
           "isRefreshable": true,
           "isEffectiveIdentityRequired": false,
           "isEffectiveIdentityRolesRequired": false,
@@ -5142,7 +5142,7 @@
           "id": "c7223b2e-1eb6-4210-9bed-5b247aa6851e",
           "name": "Avance de ventas - Murken (Preview)",
           "addRowsAPIEnabled": false,
-          "configuredBy": "aperez@baidist.com.ar",
+          "configuredBy": "powerbi@baidist.com.ar",
           "isRefreshable": true,
           "isEffectiveIdentityRequired": false,
           "isEffectiveIdentityRolesRequired": false,
@@ -6460,7 +6460,7 @@
           "displayName": "Agustin Fopiano",
           "identifier": "vendedoresbat@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-08T00:14:38",
+          "last_activity": "2026-06-09T00:39:59",
           "is_active": true
         }
       ]
@@ -6972,8 +6972,8 @@
       "displayName": "Guillermo Lismore",
       "identifier": "glismore@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-05-13T00:52:09",
-      "is_active": true
+      "last_activity": "",
+      "is_active": false
     },
     {
       "emailAddress": "aivancich@baidist.com.ar",
@@ -6999,7 +6999,7 @@
       "displayName": "Agustin Fopiano",
       "identifier": "vendedoresbat@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-06-08T00:14:38",
+      "last_activity": "2026-06-09T00:39:59",
       "is_active": true
     },
     {
@@ -7314,7 +7314,7 @@
       "displayName": "Marilina Gette",
       "identifier": "mgette@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-06-08T00:19:22",
+      "last_activity": "2026-06-09T00:05:51",
       "is_active": true
     },
     {
