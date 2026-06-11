@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T14:24:49.024729+00:00",
+  "generated_at": "2026-06-11T14:39:18.857928+00:00",
   "summary": {
     "total_workspaces": 88,
     "total_reports": 119,
@@ -10,23 +10,23 @@
     "top_reports": [
       {
         "id": "cc2bc666-190c-4764-b4c1-0136e9e74b92",
-        "views": 14
+        "views": 12
       },
       {
         "id": "43d5333d-aaad-4fb4-8450-51c0574b6b2a",
         "views": 8
       },
       {
+        "id": "35d64331-46fb-42fc-bf5c-3f2060c4be1f",
+        "views": 7
+      },
+      {
         "id": "38ff8b65-4dd1-4fd7-99f5-e9949e8ab10d",
         "views": 7
       },
       {
-        "id": "35d64331-46fb-42fc-bf5c-3f2060c4be1f",
-        "views": 6
-      },
-      {
         "id": "389168c8-ea8c-4dca-9fc9-66b5ced65d15",
-        "views": 4
+        "views": 5
       },
       {
         "id": "6f95c033-0627-4e50-84dc-0143d0e57000",
@@ -231,7 +231,7 @@
           "name": "Reporte comercial Bai Dist",
           "datasetId": "99b180b4-aca3-4da6-8265-3e4f0a879b5c",
           "createdDateTime": "2025-05-16T13:05:40.8Z",
-          "modifiedDateTime": "2026-06-09T23:41:59.04Z",
+          "modifiedDateTime": "2026-06-10T19:20:40.087Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -270,7 +270,7 @@
           "name": "Cobertura Cigarrillos - Mobile",
           "datasetId": "fa6d9740-a16c-476e-9e2b-b242f492798f",
           "createdDateTime": "2026-03-03T13:14:42.127Z",
-          "modifiedDateTime": "2026-06-09T20:20:02.35Z",
+          "modifiedDateTime": "2026-06-10T19:25:38.71Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -585,7 +585,7 @@
           "name": "Cuentas Corrientes",
           "datasetId": "295a6b0d-bb29-415e-8723-2a8365e6e3e5",
           "createdDateTime": "2026-02-20T14:42:48.743Z",
-          "modifiedDateTime": "2026-05-29T19:09:28.873Z",
+          "modifiedDateTime": "2026-06-10T19:40:46.86Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -760,7 +760,7 @@
           "displayName": "Admin",
           "identifier": "administracion@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-17T00:51:19",
+          "last_activity": "2026-06-10T00:01:53",
           "is_active": true
         },
         {
@@ -1903,7 +1903,7 @@
           "displayName": "Admin",
           "identifier": "administracion@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-17T00:51:19",
+          "last_activity": "2026-06-10T00:01:53",
           "is_active": true
         }
       ]
@@ -2039,7 +2039,7 @@
           "name": "GO-TO-MARKET",
           "datasetId": "d5ed0341-88c7-4ada-a635-1d0ceb2e57f2",
           "createdDateTime": "2026-04-13T13:40:30.81Z",
-          "modifiedDateTime": "2026-06-03T14:45:12.1Z",
+          "modifiedDateTime": "2026-06-10T16:55:36.62Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -2956,7 +2956,7 @@
           "displayName": "Admin",
           "identifier": "administracion@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-17T00:51:19",
+          "last_activity": "2026-06-10T00:01:53",
           "is_active": true
         },
         {
@@ -3521,7 +3521,7 @@
           "name": "Stock & Giros V1",
           "datasetId": "bc9a42ff-7f96-490f-ac55-52ed412f84ec",
           "createdDateTime": "2026-05-18T13:28:25.76Z",
-          "modifiedDateTime": "2026-06-01T12:10:46.697Z",
+          "modifiedDateTime": "2026-06-11T14:31:56.95Z",
           "users": [],
           "subscriptions": [],
           "views_30d": 0,
@@ -3657,7 +3657,7 @@
           "displayName": "Marilina Gette",
           "identifier": "mgette@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-09T00:05:51",
+          "last_activity": "2026-06-10T00:25:28",
           "is_active": true
         },
         {
@@ -3693,7 +3693,7 @@
           "displayName": "Admin",
           "identifier": "administracion@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-17T00:51:19",
+          "last_activity": "2026-06-10T00:01:53",
           "is_active": true
         },
         {
@@ -4091,7 +4091,7 @@
           "displayName": "Marilina Gette",
           "identifier": "mgette@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-09T00:05:51",
+          "last_activity": "2026-06-10T00:25:28",
           "is_active": true
         },
         {
@@ -4333,7 +4333,7 @@
           "displayName": "Marilina Gette",
           "identifier": "mgette@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-09T00:05:51",
+          "last_activity": "2026-06-10T00:25:28",
           "is_active": true
         },
         {
@@ -4373,7 +4373,7 @@
           "displayName": "Marilina Gette",
           "identifier": "mgette@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-06-09T00:05:51",
+          "last_activity": "2026-06-10T00:25:28",
           "is_active": true
         }
       ]
@@ -4612,7 +4612,7 @@
           "displayName": "Admin",
           "identifier": "administracion@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-17T00:51:19",
+          "last_activity": "2026-06-10T00:01:53",
           "is_active": true
         }
       ]
@@ -5668,7 +5668,7 @@
           "displayName": "Admin",
           "identifier": "administracion@baidist.com.ar",
           "principalType": "User",
-          "last_activity": "2026-05-17T00:51:19",
+          "last_activity": "2026-06-10T00:01:53",
           "is_active": true
         },
         {
@@ -7062,7 +7062,7 @@
       "displayName": "Admin",
       "identifier": "administracion@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-05-17T00:51:19",
+      "last_activity": "2026-06-10T00:01:53",
       "is_active": true
     },
     {
@@ -7314,7 +7314,7 @@
       "displayName": "Marilina Gette",
       "identifier": "mgette@baidist.com.ar",
       "principalType": "User",
-      "last_activity": "2026-06-09T00:05:51",
+      "last_activity": "2026-06-10T00:25:28",
       "is_active": true
     },
     {
